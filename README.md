@@ -15,16 +15,16 @@
 ![image](https://github.com/user-attachments/assets/7dfce5ab-85d2-460b-b30e-3097e3a61a63)
 
 ## What is Arc 2.0?
-Arc 2.0 Browser is a skin made for Zen Browser that adds lots of polish to the design by incorporating animations, blurs and more. It's pretty much the skin I personally use, but made public because people wanted the CSS.
+Arc 2.0 Browser is a skin made for Zen Browser that adds lots of polish to the design by incorporating animations, blurs and more. It's pretty much the skin I personally use, but made public because people wanted the CSS. This skin is inspired by Arc browser and some other Zen skins (listed in credits)
 
-Arc is NOT a standalone browser. I don't even intend on making one.
+Arc 2.0 is NOT a standalone browser. I don't even intend on making one.
 
-Arc has been tested on 1.8.2b (Beta) on Windows. Note: It is not tested on Mac.
+Arc 2.0 has been tested on 1.8.2b (Beta) on Windows. Note: It is not tested on Mac.
 
-###features are listed below!
+### features are listed below!
 ### ℹ️ Note
 
-> Please remember that Natsumi in the end is my personal browser skin. If you don't like a design choice I've
+> Please remember that Arc 2.0 in the end is my personal browser skin. If you don't like a design choice I've
 > made, chances are I'll keep it if I still like it. So please be respectful and refrain from attacking people when you
 > make suggestions. Thanks!
 
