@@ -133,7 +133,7 @@ For the sidebar transperency, I used Mica for everyone. Click on ```Add new rule
 * ### https://discord.com/channels/1088172780480114748/1342214828487344209
 
 ## Re-distribution info:
-You are totally free to make forks of this or put this in your chrome file and create or modify it according to your self. It is suggested to credit me if you use my theme. Thank You for using Arc 2.0!
+You are totally free to make forks of this or put this in your chrome file and create or modify it according to yourself. It is suggested to credit me if you use my theme. Thank You for using Arc 2.0!
 
 ## Please note that!
 I love you <3
