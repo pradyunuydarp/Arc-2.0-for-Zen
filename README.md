@@ -30,7 +30,7 @@ Arc 2.0 has been tested on 1.8.2b (Beta) on Windows. Note: It is not tested on M
 
 ## How to use?
 Install the ZIP file from here. Extract it. Copy and paste the folder inside the ZIP file in the chrome folder. After that copy and paste this in the userChrome.css file:
-```@import "Arc 2.0/arc.css";```
+```@import "Arc-2.0-main/arc.css";```
 
 After installing the css files, open the browser and pin the Copy Frame or Page URL extension (extensions listed below).
 
