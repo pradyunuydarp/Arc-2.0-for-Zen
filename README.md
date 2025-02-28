@@ -91,6 +91,7 @@ https://github.com/user-attachments/assets/98e35d8f-5638-4791-8369-8ff964ad94df
   Link - https://addons.mozilla.org/en-US/firefox/addon/copy-frame-or-page-url/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
 
 ## Configs required:
+Press Ctrl+T and open the floating URL bar and type "about:config". Press the tick button then type the following. After that press the ```boolean``` option and press the ```+``` button and set it to true for the following:
 * ### ```browser.tabs.allow_transparent_browser```
 
 ## Features:
@@ -114,6 +115,12 @@ https://github.com/user-attachments/assets/98e35d8f-5638-4791-8369-8ff964ad94df
 
 ## Workspace Theme Colors:
 ![image](https://github.com/user-attachments/assets/dcbeb0bf-f2dd-4cd4-a394-7a43cd2ce978)
+
+## Zen Sidebar transperency:
+
+For the sidebar transperency, I used Mica for everyone. Click on ```Add new rule``` and type ```zen```. Under Style, set background type to acrylic.
+![image](https://github.com/user-attachments/assets/9a2581af-4d14-49b7-8f03-d35bd034ad3a)
+
 
 
 ## Credits:
