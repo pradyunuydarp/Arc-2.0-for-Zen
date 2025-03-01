@@ -42,6 +42,10 @@ Adjust or change the different toolbar items according to the one I made like ar
 
 Vallah! You got yourself a new browser which is arc but a lot more better!!!
 
+This is what your chrome folder should look like:
+
+![image](https://github.com/user-attachments/assets/1f5db909-e475-4129-acc7-3a215ac96731)
+
 ## How to get Arc like pinned extensions:
 
 * First go to settings.
