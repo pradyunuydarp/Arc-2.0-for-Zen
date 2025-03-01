@@ -146,7 +146,7 @@ You are totally free to make forks of this or put this in your chrome file and c
 
 ### ℹ️ Note
 
-> The video tutorials are shwon for the Twilight version (except the last video).
+> The video tutorials are shown for the Twilight version (except the last video).
 > For using it in Zen beta, you can simply paste the files in the Zen beta chrome folder.
 
 * ### Installing the browser skin
