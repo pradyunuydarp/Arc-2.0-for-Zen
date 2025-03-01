@@ -78,9 +78,7 @@ https://github.com/user-attachments/assets/98e35d8f-5638-4791-8369-8ff964ad94df
 * ### HidePlugins
 
   Link - https://zen-browser.app/mods/b430a958-cd66-4edd-b451-c6c7cfb7e160/
-* ### Pimp your PiP
-
-  Link - https://zen-browser.app/mods/599a1599-e6ab-4749-ab22-de533860de2c/
+  
 
 ## Extensions required:
 * ### Zen Internet (for transparent websites):
