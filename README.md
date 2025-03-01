@@ -142,9 +142,9 @@ You are totally free to make forks of this or put this in your chrome file and c
 > The video tutorials are shwon for the Twilight version (except the last video).
 > For using it in Zen beta, you can simply paste the files in the Zen beta chrome folder.
 
-* ### Installing the browser
+* ### Installing the browser skin
 
-  https://github.com/user-attachments/assets/db426e12-8222-4445-804f-95e3449093ee
+  https://github.com/user-attachments/assets/083fe207-2889-4182-b03d-a0ad729d5893
 
 * ### Mods Installation
 
