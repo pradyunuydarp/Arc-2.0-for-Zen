@@ -111,6 +111,10 @@ Press Ctrl+T and open the floating URL bar and type "about:config". Press the ti
   ![image](https://github.com/user-attachments/assets/7f144321-4cd3-40aa-aca2-fc96ee4af184)
 * ### Transparent Websites (With Zen Internet Add-on):
   ![image](https://github.com/user-attachments/assets/34f1d947-33b0-4370-a717-fc354d4f9830)
+* ### Better PDF viewer:
+  ![Screenshot 2025-03-01 190031](https://github.com/user-attachments/assets/6ddf951d-df22-4ed7-8656-77c284dd9aeb)
+* ### Better PiP:
+  ![Screenshot 2025-03-01 190128](https://github.com/user-attachments/assets/8e7303c0-4a1a-4ff5-8497-c34c5b06440b)
 * ### Animations
 
 ## Workspace Theme Colors:
