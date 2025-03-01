@@ -1,3 +1,4 @@
+
 <div align="center">
 <img width="200" src="https://github.com/user-attachments/assets/f9a25afb-2503-421a-bed0-6e94f2ab43db" />
 </div>
@@ -134,6 +135,33 @@ For the sidebar transperency, I used Mica for everyone. Click on ```Add new rule
 
 ## Re-distribution info:
 You are totally free to make forks of this or put this in your chrome file and create or modify it according to yourself. It is suggested to credit me if you use my theme. Thank You for using Arc 2.0!
+
+## Video Tutorial!
+
+### ℹ️ Note
+
+> The video tutorials are shwon for the Twilight version (except the last video).
+> For using it in Zen beta, you can simply paste the files in the Zen beta chrome folder.
+
+* ### Installing the browser
+
+  https://github.com/user-attachments/assets/db426e12-8222-4445-804f-95e3449093ee
+
+* ### Mods Installation
+
+  https://github.com/user-attachments/assets/9db7236d-9647-4ffb-a0a7-5ccc103dba49
+
+* ### Arc like copy link
+
+  https://github.com/user-attachments/assets/cc212458-6e19-4abd-b8cd-b942ffd94d74
+
+* ### Arc like extensions (video used before as well. Used here for completency)
+
+  https://github.com/user-attachments/assets/98e35d8f-5638-4791-8369-8ff964ad94df
+
+* ### Sidebar Transperency (For normal Zen not for Twilight)
+
+  https://github.com/user-attachments/assets/39ace8f9-5ca4-4f60-9c9e-966da5807a0f
 
 ## Please note that!
 I love you <3
