@@ -159,6 +159,10 @@ You are totally free to make forks of this or put this in your chrome file and c
 
   https://github.com/user-attachments/assets/98e35d8f-5638-4791-8369-8ff964ad94df
 
+* ### Transparent Websites
+ 
+  https://github.com/user-attachments/assets/d797005e-bc4d-4237-a41f-35295629d57f
+
 * ### Sidebar Transperency (For normal Zen not for Twilight)
 
   https://github.com/user-attachments/assets/39ace8f9-5ca4-4f60-9c9e-966da5807a0f
