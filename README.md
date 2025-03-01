@@ -112,7 +112,7 @@ Press Ctrl+T and open the floating URL bar and type "about:config". Press the ti
 * ### Transparent Websites (With Zen Internet Add-on):
   ![image](https://github.com/user-attachments/assets/34f1d947-33b0-4370-a717-fc354d4f9830)
 * ### Better PDF viewer:
-  ![Screenshot 2025-03-01 190031](https://github.com/user-attachments/assets/6ddf951d-df22-4ed7-8656-77c284dd9aeb)
+  ![image](https://github.com/user-attachments/assets/d8c85853-6c49-4d66-8a36-01fbe60b88f8)
 * ### Better PiP:
   ![Screenshot 2025-03-01 190128](https://github.com/user-attachments/assets/8e7303c0-4a1a-4ff5-8497-c34c5b06440b)
 * ### Animations
@@ -132,7 +132,8 @@ For the sidebar transperency, I used Mica for everyone. Click on ```Add new rule
 * ### https://github.com/TheBigWazz/Pineapple-Fried/blob/main/pineapple-fried%2Fwazz-tweaks%2FModules%2Fcommunity-changes%2Furl-loading-animation.css
 * ### https://github.com/GuiMar10/Mindfulness
 * ### https://github.com/Tanay-Kar/Lacuna
-* ### https://github.com/greeeen-dev/natsumi-browser?tab=readme-ov-file
+* ### https://github.com/greeeen-dev/natsumi-browser
+* ### https://sameerasw.notion.site/Zen-Transparency-1939c6099d4080468f02cf05ae50e827?pvs=4
 * ### https://discord.com/channels/1088172780480114748/1340837003448684605
 * ### https://discord.com/channels/1088172780480114748/1342214828487344209
 
