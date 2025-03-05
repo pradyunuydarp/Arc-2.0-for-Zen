@@ -95,6 +95,7 @@ https://github.com/user-attachments/assets/98e35d8f-5638-4791-8369-8ff964ad94df
 ## Configs required:
 Press Ctrl+T and open the floating URL bar and type "about:config". Press the tick button then type the following. After that press the ```boolean``` option and press the ```+``` button and set it to true for the following:
 * ### ```browser.tabs.allow_transparent_browser```
+* ### ```browser.urlbar.openintab``` (optional)(when typed something by clicking on the URL bar, opens a new tab instead of modifying the current tab)
 
 ## Features:
 * ### Arc like URL bar:
