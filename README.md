@@ -22,7 +22,7 @@ Arc 2.0 is NOT a standalone browser. I don't even intend on making one.
 
 Arc 2.0 has been tested on 1.8.2b (Beta) on Windows. Note: It is not tested on Mac.
 
-### features are listed below!
+### Features are listed below!
 ### ℹ️ Note
 
 > Please remember that Arc 2.0 in the end is my personal browser skin. If you don't like a design choice I've
@@ -30,15 +30,15 @@ Arc 2.0 has been tested on 1.8.2b (Beta) on Windows. Note: It is not tested on M
 > make suggestions. Thanks!
 
 ## How to use? (Full video tutorial given below)
-Install the ZIP file from Releases. Extract it. Copy and paste the files inside the ZIP file in the chrome folder.
+Install the ZIP file from Releases. Extract it, then copy and paste the files of the ZIP file in the chrome folder. 
 
-After installing the css files, open the browser and pin the Copy Frame or Page URL extension (extensions listed below).
+After installing the CSS files, open the browser and pin the Copy Frame or Page URL extension (extensions listed below).
 
 Now install the mods and other extensions listed below and then alter the settings as listed below or according to yourself.
 
-Enable the required Configs from ```about:config```
+Enable the required configs from ```about:config```
 
-Adjust or change the different toolbar items according to the one I made like arc (in the image) or according to yourself).
+Adjust or change the different toolbar items according to the one i made like Arc (in the image) or according to yourself.
 
 Vallah! You got yourself a new browser which is arc but a lot more better!!!
 
@@ -95,14 +95,14 @@ https://github.com/user-attachments/assets/98e35d8f-5638-4791-8369-8ff964ad94df
 ## Configs required:
 Press Ctrl+T and open the floating URL bar and type "about:config". Press the tick button then type the following. After that press the ```boolean``` option and press the ```+``` button and set it to true for the following:
 * ### ```browser.tabs.allow_transparent_browser```
-* ### ```browser.urlbar.openintab``` (optional)(when typed something by clicking on the URL bar, opens a new tab instead of modifying the current tab)
+* ### ```browser.urlbar.openintab``` (optional) (When typed something by clicking on the URL bar, opens a new tab instead of modifying the current tab)
 
 ## Features:
 * ### Arc like URL bar:
   ![image](https://github.com/user-attachments/assets/1071ae43-9576-408f-90ca-8e376422faa6)
 * ### Better color gradients for essentials:
   ![image](https://github.com/user-attachments/assets/0c884a5e-92c9-4bae-8ecb-4c683da859a2)
-* ### Arc like pinned Extensions:
+* ### Arc like pinned extensions:
   ![image](https://github.com/user-attachments/assets/2725fa11-7cd2-4c1f-85f4-7b5a96aecec8)
 * ### Better ```Customize Toolbar```:
   ![image](https://github.com/user-attachments/assets/d0d797ac-9900-41d8-a60d-5e4e2966ba89)
@@ -112,7 +112,7 @@ Press Ctrl+T and open the floating URL bar and type "about:config". Press the ti
   ![image](https://github.com/user-attachments/assets/d181f3d0-a7d9-4cc2-919b-22415b5cb7d5)
 * ### Better Floating URL Bar:
   ![image](https://github.com/user-attachments/assets/7f144321-4cd3-40aa-aca2-fc96ee4af184)
-* ### Transparent Websites (With Zen Internet Add-on):
+* ### Transparent Websites (with Zen Internet Add-on):
   ![image](https://github.com/user-attachments/assets/34f1d947-33b0-4370-a717-fc354d4f9830)
 * ### Better PDF viewer:
   ![image](https://github.com/user-attachments/assets/d8c85853-6c49-4d66-8a36-01fbe60b88f8)
@@ -123,9 +123,9 @@ Press Ctrl+T and open the floating URL bar and type "about:config". Press the ti
 ## Workspace Theme Colors:
 ![image](https://github.com/user-attachments/assets/dcbeb0bf-f2dd-4cd4-a394-7a43cd2ce978)
 
-## Zen Sidebar transperency:
+## Zen Sidebar transparency:
 
-For the sidebar transperency, I used Mica for everyone. Click on ```Add new rule``` and type ```zen```. Under Style, set background type to acrylic.
+For the sidebar transparency, I used Mica for everyone. Click on ```Add new rule``` and type ```zen```. Under Style, set background type to acrylic.
 ![image](https://github.com/user-attachments/assets/9a2581af-4d14-49b7-8f03-d35bd034ad3a)
 
 
@@ -141,7 +141,7 @@ For the sidebar transperency, I used Mica for everyone. Click on ```Add new rule
 * ### https://discord.com/channels/1088172780480114748/1342214828487344209
 
 ## Re-distribution info:
-You are totally free to make forks of this or put this in your chrome file and create or modify it according to yourself. It is suggested to credit me if you use my theme. Thank You for using Arc 2.0!
+You are totally free to make forks of this or put this in your chrome file and create or modify it according to yourself. It's suggested to credit me if you use my theme. Thank you for using Arc 2.0!
 
 ## Video Tutorial!
 
@@ -166,11 +166,11 @@ You are totally free to make forks of this or put this in your chrome file and c
 
   https://github.com/user-attachments/assets/98e35d8f-5638-4791-8369-8ff964ad94df
 
-* ### Transparent Websites
+* ### Transparent websites
  
   https://github.com/user-attachments/assets/d797005e-bc4d-4237-a41f-35295629d57f
 
-* ### Sidebar Transperency (For normal Zen not for Twilight)
+* ### Sidebar transparency (For normal Zen not for Twilight)
 
   https://github.com/user-attachments/assets/39ace8f9-5ca4-4f60-9c9e-966da5807a0f
 
