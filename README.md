@@ -96,7 +96,7 @@ https://github.com/user-attachments/assets/98e35d8f-5638-4791-8369-8ff964ad94df
 Press Ctrl+T and open the floating URL bar and type "about:config". Press the tick button then type the following. After that press the ```boolean``` option and press the ```+``` button and set it to true or false for the following:
 * ### ```browser.tabs.allow_transparent_browser``` (true)
 * ### ```browser.urlbar.openintab``` (optional) (true) (When typed something by clicking on the URL bar, opens a new tab instead of modifying the current tab)
-* ### ```zen.widget.windows.acrylic (optional) (false) (For using Mica for Everyone in the toolbar)
+* ### ```zen.widget.windows.acrylic``` (optional) (false) (For using Mica for Everyone in the toolbar)
 
 ## Features:
 * ### Arc like URL bar:
