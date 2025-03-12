@@ -126,7 +126,8 @@ Press Ctrl+T and open the floating URL bar and type "about:config". Press the ti
 
 ## Zen Sidebar transparency:
 
-For the sidebar transparency, I used Mica for everyone. Click on ```Add new rule``` and type ```zen```. Under Style, set background type to acrylic.
+For the sidebar transparency, I used Mica for everyone. Click on ```Add new rule``` and type ```zen```. Under Style, set background 
+type to acrylic.
 ![image](https://github.com/user-attachments/assets/9a2581af-4d14-49b7-8f03-d35bd034ad3a)
 
 
