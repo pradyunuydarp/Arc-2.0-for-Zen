@@ -97,6 +97,7 @@ Press Ctrl+T and open the floating URL bar and type "about:config". Press the ti
 * ### ```browser.tabs.allow_transparent_browser``` (true)
 * ### ```browser.urlbar.openintab``` (optional) (true) (When typed something by clicking on the URL bar, opens a new tab instead of modifying the current tab)
 * ### ```zen.widget.windows.acrylic``` (optional) (false) (For using Mica for Everyone in the toolbar)
+* ### ```browser.tabs.hoverPreview.enabled```
 
 ## Features:
 * ### Arc like URL bar:
