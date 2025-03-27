@@ -46,6 +46,11 @@ This is what your chrome folder should look like:
 
 ![image](https://github.com/user-attachments/assets/1f5db909-e475-4129-acc7-3a215ac96731)
 
+Also enable this from the settings:
+
+![image](https://github.com/user-attachments/assets/994e74d5-5c29-4c11-8f50-8d6cf95f9b61)
+
+
 ## How to get Arc like pinned extensions:
 
 * First go to settings.
@@ -142,6 +147,7 @@ type to acrylic.
 * ### https://sameerasw.notion.site/Zen-Transparency-1939c6099d4080468f02cf05ae50e827?pvs=4
 * ### https://discord.com/channels/1088172780480114748/1340837003448684605
 * ### https://discord.com/channels/1088172780480114748/1342214828487344209
+* ### https://github.com/ferrocyante/vyang
 
 ## Re-distribution info:
 You are totally free to make forks of this or put this in your chrome file and create or modify it according to yourself. It's suggested to credit me if you use my theme. Thank you for using Arc 2.0!
