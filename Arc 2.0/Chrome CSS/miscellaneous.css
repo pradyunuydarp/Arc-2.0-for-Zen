@@ -198,7 +198,7 @@
   }
   
   menuitem {
-    transition: all 0.2s ease-in-out !important;
+    transition: all 0.3s ease-in-out !important;
   }
   
   [hasbeenopened="true"] {
