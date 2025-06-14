@@ -20,7 +20,7 @@ Arc 2.0 Browser is a skin made for Zen Browser that adds lots of polish to the d
 
 Arc 2.0 is NOT a standalone browser. I don't even intend on making one.
 
-Arc 2.0 has been tested on 1.8.2b (Beta) on Windows. Note: It is not tested on Mac.
+Arc 2.0 has been tested on 1.13b (Beta) on Windows. Note: It is not tested on Mac.
 
 ### Features are listed below!
 ### ℹ️ Note
