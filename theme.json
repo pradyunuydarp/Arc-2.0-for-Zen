@@ -1,3 +1,4 @@
+```json
 {
   "id": "Arc 2.0",
   "homepage": "https://github.com/YashjitPal/Arc-2.0/",
@@ -6,10 +7,11 @@
   "description": "Arc which receives non-chromium updates every 1-2 weeks! (iykyk).",
   "version": "2.5",
   "style":{
-    "chrome": "https://github.com/YashjitPal/Arc-2.0/blob/main/userChrome.css",
-    "content": "https://github.com/YashjitPal/Arc-2.0/blob/main/userContent.css"
+    "chrome": "https://raw.githubusercontent.com/YashjitPal/Arc-2.0/Dev/userChrome.css",
+    "content": "https://raw.githubusercontent.com/YashjitPal/Arc-2.0/Dev/userContent.css"
   },
-  "readme": "https://github.com/YashjitPal/Arc-2.0/blob/main/README.md",
-  "image": "https://private-user-images.githubusercontent.com/80625891/418160735-7dfce5ab-85d2-460b-b30e-3097e3a61a63.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDk4ODQ4NDMsIm5iZiI6MTc0OTg4NDU0MywicGF0aCI6Ii84MDYyNTg5MS80MTgxNjA3MzUtN2RmY2U1YWItODVkMi00NjBiLWIzMGUtMzA5N2UzYTYxYTYzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA2MTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNjE0VDA3MDIyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWIxYmIzMDg3YWMxYWU3Y2ZkYWRlMmU2ZWU3ZWMzMzE5MGY0ZDVkYzRjNDhlMzFlYTVlMjEzOTdjMGJlM2NkOWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.tz62XZQMgVRdHTAMDLvw76cDJlvHOPTuTvwB0_r_vSQ",
+  "readme": "https://raw.githubusercontent.com/YashjitPal/Arc-2.0/Dev/README.md",
+  "image": "https://github.com/user-attachments/assets/f9a25afb-2503-421a-bed0-6e94f2ab43db",
   "fork": ["zen"]
 }
+```
