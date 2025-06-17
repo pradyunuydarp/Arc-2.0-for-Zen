@@ -1,5 +1,6 @@
 /* Arc 2.0 CSS Files */
-@import "Chrome CSS/urlbar/url.css";
+@import "Chrome CSS/tab-styles.css";
+@import "Chrome CSS/URLbar.css";
 @import "Chrome CSS/animations.css";
 @import "Chrome CSS/arc-font.css";
 @import "Chrome CSS/better-colored-essentials.css";
