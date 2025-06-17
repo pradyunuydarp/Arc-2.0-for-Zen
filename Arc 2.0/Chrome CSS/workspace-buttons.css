@@ -320,7 +320,7 @@
   /* ------------------------------ Configuration Options ------------------------------ */
   
   /* Option to remove workspace name */
-  @media (-moz-pref("nebula-remove-workspace-indicator")) {
+  @media (-moz-pref("arc-remove-workspace-indicator")) {
     
   .zen-current-workspace-indicator {
     display: none !important;
