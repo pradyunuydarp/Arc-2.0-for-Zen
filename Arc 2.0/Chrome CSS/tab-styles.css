@@ -12,7 +12,7 @@
   
   /* ------------------- Container Tabs Styling ------------------- */
   
-  @media not (-moz-pref("nebula-disable-container-styling")) {
+  @media not (-moz-pref("arc-disable-container-styling")) {
     
     #userContext-icons {
     /* URLbar of container tabs */
@@ -179,7 +179,7 @@
   .tabbrowser-tab:not([pinned])[visuallyselected="true"] .tab-background {
     background-color: var(--nebula-color-selected) !important;
     box-shadow: 0 0px 3px light-dark(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.55)) !important;
-  }*/
+  } */
   
   /* --- glow to active tab --- */
   /*
