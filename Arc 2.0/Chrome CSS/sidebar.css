@@ -1,3 +1,14 @@
+/* Sidebar background transparency for Windows 10*/
+#sidebar-box,
+#bookmarksPanel.sidebar-panel,
+#sidebar-header,
+#history-panel,
+html,
+#header {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
 /*Credit: JustAdumbPrsn*/
 @-moz-document url-prefix("chrome:") {
   /* -------------------------- COLLAPSED FIX -------------------------- */
