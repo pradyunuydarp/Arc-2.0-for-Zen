@@ -3,7 +3,7 @@
   "author": "YashjitPal",
   "name": "Arc 2.0",
   "description": "Arc which receives non-chromium updates every 1-2 weeks! (iykyk).",
-  "version": "2.5",
+  "version": "3.0",
   "style":{"chrome": "https://raw.githubusercontent.com/YashjitPal/Arc-2.0/Dev/userChrome.css",
     "content": "https://raw.githubusercontent.com/YashjitPal/Arc-2.0/Dev/userContent.css"},
   "readme": "https://raw.githubusercontent.com/YashjitPal/Arc-2.0/Dev/README.md",
