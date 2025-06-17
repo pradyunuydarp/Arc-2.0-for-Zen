@@ -13,14 +13,18 @@
 </div>
 
 ##
-![image](https://github.com/user-attachments/assets/7dfce5ab-85d2-460b-b30e-3097e3a61a63)
+![image](https://github.com/user-attachments/assets/19211d6b-69e4-442c-99c4-655c48f5a8c5)
+![image](https://github.com/user-attachments/assets/8656badb-e246-4228-9a50-155bcf5a4f2b)
+![image](https://github.com/user-attachments/assets/188fa8ab-6b1b-49b0-a550-fe33440a5498)
+![image](https://github.com/user-attachments/assets/1689cdb1-4d74-4b9d-9c48-adebcd2f2921)
+
 
 ## What is Arc 2.0?
 Arc 2.0 Browser is a skin made for Zen Browser that adds lots of polish to the design by incorporating animations, blurs and more. It's pretty much the skin I personally use, but made public because people wanted the CSS. This skin is inspired by Arc browser and some other Zen skins (listed in credits)
 
 Arc 2.0 is NOT a standalone browser. I don't even intend on making one.
 
-Arc 2.0 has been tested on 1.13b (Beta) on Windows. Note: It is not tested on Mac.
+Arc 2.0 has been tested on 1.13.1b (Beta) on Windows. Note: It is not tested on Mac.
 
 ### Features are listed below!
 ### ℹ️ Note
@@ -69,9 +73,6 @@ Below is the tutorial video:
 https://github.com/user-attachments/assets/98e35d8f-5638-4791-8369-8ff964ad94df
 
 ## Mods required:
-* ### Quietify
-
-  Link - https://zen-browser.app/mods/fd24f832-a2e6-4ce9-8b19-7aa888eb7f8e/
 * ### Zen Minimal Exit Menu
 
   Link - https://zen-browser.app/mods/6cd4bca9-f17d-4461-b554-844d69a4887c/
@@ -81,12 +82,6 @@ https://github.com/user-attachments/assets/98e35d8f-5638-4791-8369-8ff964ad94df
 * ### Customize Font Size![image](https://github.com/user-attachments/assets/bb964ef8-af07-491b-99e8-8a4fa0c87789)
 
   Link - https://zen-browser.app/mods/d23733fa-983e-4680-8869-bf5b292d4fe6/
-* ### SuperPins![image](https://github.com/user-attachments/assets/2c0c12d3-49cb-4fd4-b023-11b55aceeed0)
-
-  Link - https://zen-browser.app/mods/ad97bb70-0066-4e42-9b5f-173a5e42c6fc/
-* ### HidePlugins
-
-  Link - https://zen-browser.app/mods/b430a958-cd66-4edd-b451-c6c7cfb7e160/
   
 
 ## Extensions required:
@@ -103,6 +98,9 @@ Press Ctrl+T and open the floating URL bar and type "about:config". Press the ti
 * ### ```browser.urlbar.openintab``` (optional) (true) (When typed something by clicking on the URL bar, opens a new tab instead of modifying the current tab)
 * ### ```zen.widget.windows.acrylic``` (optional) (false) (For using Mica for Everyone in the toolbar)
 * ### ```browser.tabs.hoverPreview.enabled```
+
+## Other Configs:
+* ### ```arc-tab-loading0animations``` (boolean) - 0: No animation;
 
 ## Features:
 * ### Arc like URL bar:
