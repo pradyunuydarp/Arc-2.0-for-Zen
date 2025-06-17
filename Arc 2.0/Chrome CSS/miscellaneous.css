@@ -220,7 +220,7 @@
     &:has(menu[open="true"]) {
       & > menuitem,
       menu:not([open="true"]) {
-        opacity: 0.3 !important;
+        opacity: 0.2 !important;
       }
     }
   }
