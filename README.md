@@ -13,14 +13,14 @@
 </div>
 
 ##
-![image](https://github.com/user-attachments/assets/7dfce5ab-85d2-460b-b30e-3097e3a61a63)
+![image](https://github.com/user-attachments/assets/19211d6b-69e4-442c-99c4-655c48f5a8c5)
 
 ## What is Arc 2.0?
 Arc 2.0 Browser is a skin made for Zen Browser that adds lots of polish to the design by incorporating animations, blurs and more. It's pretty much the skin I personally use, but made public because people wanted the CSS. This skin is inspired by Arc browser and some other Zen skins (listed in credits)
 
 Arc 2.0 is NOT a standalone browser. I don't even intend on making one.
 
-Arc 2.0 has been tested on 1.8.2b (Beta) on Windows. Note: It is not tested on Mac.
+Arc 2.0 has been tested on 1.13.1b (Beta) on Windows. Note: It is not tested on Mac.
 
 ### Features are listed below!
 ### ℹ️ Note
@@ -69,24 +69,15 @@ Below is the tutorial video:
 https://github.com/user-attachments/assets/98e35d8f-5638-4791-8369-8ff964ad94df
 
 ## Mods required:
-* ### Quietify
-
-  Link - https://zen-browser.app/mods/fd24f832-a2e6-4ce9-8b19-7aa888eb7f8e/
 * ### Zen Minimal Exit Menu
 
   Link - https://zen-browser.app/mods/6cd4bca9-f17d-4461-b554-844d69a4887c/
-* ### Animations Plus
+* ### Transparent Zen
 
-  Link - https://zen-browser.app/mods/f4866f39-cfd6-4498-ab92-54213b8279dc/
+  Link - https://zen-browser.app/mods/642854b5-88b4-4c40-b256-e035532109df/
 * ### Customize Font Size![image](https://github.com/user-attachments/assets/bb964ef8-af07-491b-99e8-8a4fa0c87789)
 
   Link - https://zen-browser.app/mods/d23733fa-983e-4680-8869-bf5b292d4fe6/
-* ### SuperPins![image](https://github.com/user-attachments/assets/2c0c12d3-49cb-4fd4-b023-11b55aceeed0)
-
-  Link - https://zen-browser.app/mods/ad97bb70-0066-4e42-9b5f-173a5e42c6fc/
-* ### HidePlugins
-
-  Link - https://zen-browser.app/mods/b430a958-cd66-4edd-b451-c6c7cfb7e160/
   
 
 ## Extensions required:
@@ -97,43 +88,114 @@ https://github.com/user-attachments/assets/98e35d8f-5638-4791-8369-8ff964ad94df
  
   Link - https://addons.mozilla.org/en-US/firefox/addon/copy-frame-or-page-url/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
 
-## Configs required:
+## Basic Configs required:
 Press Ctrl+T and open the floating URL bar and type "about:config". Press the tick button then type the following. After that press the ```boolean``` option and press the ```+``` button and set it to true or false for the following:
-* ### ```browser.tabs.allow_transparent_browser``` (true)
-* ### ```browser.urlbar.openintab``` (optional) (true) (When typed something by clicking on the URL bar, opens a new tab instead of modifying the current tab)
-* ### ```zen.widget.windows.acrylic``` (optional) (false) (For using Mica for Everyone in the toolbar)
-* ### ```browser.tabs.hoverPreview.enabled```
+* ### ```browser.tabs.allow_transparent_browser``` (*boolean > true*)
+* ### ```browser.urlbar.openintab``` (*boolean > true*) - **When typed something by clicking on the URL bar, opens a new tab instead of modifying the current tab.**
+* ### ```zen.widget.windows.acrylic``` (*boolean > false*) - **For using Mica for Everyone in the toolbar.**
+* ### ```browser.urlbar.trimURLs``` (*boolean > true*) - **Shortens URL Bar to only show domain name.**
+
+## Other Essential Configs:
+* ### ```arc-tab-loading-animation``` (_Number_) - **Animation while the website loads.**
+  **0: No animation;**
+  **1: Blur (*Added by default, not needed to be added in `about:config`*);**
+  **2: More Prominenet Blur;**
+  **3: Less Prominent Blur;**
+  **4: Grayscale with No Blur;**
+  **5: Grayscale with Blur**
+* ### ```arc-tab-switch-animation``` (_Number_) - **Animation while switching between tabs.**
+  **0: No animation;**
+  **1: Bounce (*Added by default, not needed to be added in `about:config`*);**
+  **2: More Bouncy;**
+  **3: More Bounce than default but lighter than 2;**
+  **4: Smooth Crossfade;**
+  **5: Zoom out effect**
+* ### ```arc-nogaps-compact-mod``` (_Boolean > True_) - **Margin/Border-less for only compact mode.**
+* ### ```arc-nogaps-mod``` (_Boolean > True_) - **Margin/Border-less for all modes.**
+* ### ```arc-remove-workspace-indicator``` (_Boolean > True_) - **Removes Workspace Indicator below Essentials.**
+* ### ```arc-workspace-style``` (_Number_) - **Introduces MacOS dock like animations to Workspace Indicators at the bottom of sidebar.**
+  **0: No Background;**
+  **1: No Animation;**
+  **2: Capsule Background**
+* ### ```arc-disable-container-styling``` (_Boolean > True_) - **Disables Container styling.**
+* ### ```browser.ml.linkPreview.enabled``` (_Boolean > True_) - **Press `Shift + Alt` while hovering mouse over a link to generate AI based summarized preview of the content inside.**
+* ### ```browser.ml.linkPreview.outputSentences``` (_Number_) - **Set the number of sentences you want AI based summarized preview of a website in.**
+* ### ```browser.low_commit_space_threshold_mb``` (_Number_) - **Set the amount of memory left free in your system to activate tab unloading. Recommended to set it 2/3rd of your total RAM.**
+* ### ```browser.tabs.min_inactive_duration_before_unload``` (_Number_) - **Under above config, set the duration (in milliseconds) in which tab unloading should be executed.**
+* ### ```dom.ipc.processPriorityManager.backgroundUsesEcoQoS``` (_Boolean > True_) - **Makes browser run on performance efficiency mode.**
 
 ## Features:
-* ### Arc like URL bar:
-  ![image](https://github.com/user-attachments/assets/1071ae43-9576-408f-90ca-8e376422faa6)
 * ### Better color gradients for essentials:
   ![image](https://github.com/user-attachments/assets/0c884a5e-92c9-4bae-8ecb-4c683da859a2)
-* ### Arc like pinned extensions:
-  ![image](https://github.com/user-attachments/assets/2725fa11-7cd2-4c1f-85f4-7b5a96aecec8)
+* ### Arc like pinned extensions and minimal URL Bar:
+  ![image](https://github.com/user-attachments/assets/c4c8e9a1-8ef4-4c06-9335-df7f839814d4)
+* ### Floating URL Bar with Blur Background:
+  ![image](https://github.com/user-attachments/assets/03a63255-9520-46c6-8468-f0579d97ad10)
 * ### Better ```Customize Toolbar```:
   ![image](https://github.com/user-attachments/assets/d0d797ac-9900-41d8-a60d-5e4e2966ba89)
-* ### Arc icons:
-  ![image](https://github.com/user-attachments/assets/ac8b5bca-8905-497b-8e0e-38157e1cae2d)![image](https://github.com/user-attachments/assets/3888bcd6-41ac-4fdc-a08c-cd4b8cc716a0)![image](https://github.com/user-attachments/assets/aea73111-740d-4e02-b50b-a084c43ac263)
 * ### Better workspace indicator:
-  ![image](https://github.com/user-attachments/assets/d181f3d0-a7d9-4cc2-919b-22415b5cb7d5)
-* ### Better Floating URL Bar:
-  ![image](https://github.com/user-attachments/assets/7f144321-4cd3-40aa-aca2-fc96ee4af184)
+  ![image](https://github.com/user-attachments/assets/84e3e65f-2c98-4f52-8f33-f28402907d53)
 * ### Transparent Websites (with Zen Internet Add-on):
   ![image](https://github.com/user-attachments/assets/34f1d947-33b0-4370-a717-fc354d4f9830)
 * ### Better PDF viewer:
   ![image](https://github.com/user-attachments/assets/d8c85853-6c49-4d66-8a36-01fbe60b88f8)
 * ### Better PiP:
-  ![Screenshot 2025-03-01 190128](https://github.com/user-attachments/assets/8e7303c0-4a1a-4ff5-8497-c34c5b06440b)
-* ### Animations
+  ![image](https://github.com/user-attachments/assets/8e7303c0-4a1a-4ff5-8497-c34c5b06440b)
+* ### Better Media Mini Player:
+  ![image](https://github.com/user-attachments/assets/70579c46-311f-48c5-9ae2-c5e86ba46332)
+  ![image](https://github.com/user-attachments/assets/d7e281b3-2652-47e3-b515-dcbde7fad547)
+
+
 
 ## Workspace Theme Colors:
 ![image](https://github.com/user-attachments/assets/dcbeb0bf-f2dd-4cd4-a394-7a43cd2ce978)
 
-## Zen Sidebar transparency:
+## Zen Sidebar transparency there are two options: **DWMGlassBlur** and **MicaForEveryone**. 
+### DWMGlassBlur (Recommended)
+Follow instructions given and download the program from here - ![url](https://github.com/Maplespe/DWMBlurGlass)
+Then, firstly download the symbols and make them from **invalid** to **valid**, as in the image below:
 
-For the sidebar transparency, I used Mica for everyone. Click on ```Add new rule``` and type ```zen```. Under Style, set background 
-type to acrylic.
+![image](https://github.com/user-attachments/assets/5219d2b3-1396-4116-b37e-eb85a8a7437d)
+
+Next, create a `DWM.ini` file and paste the following code in it:
+```[config]
+applyglobal=true
+extendBorder=false
+reflection=false
+oldBtnHeight=false
+customAmount=true
+crossFade=true
+useAccentColor=false
+blurAmount=50.000000
+customBlurAmount=50.000000
+luminosityOpacity=0.650000
+activeTextColor=4278190080
+inactiveTextColor=4290032820
+activeTextColorDark=4294967295
+inactiveTextColorDark=4290032820
+activeBlendColor=1694498815
+inactiveBlendColor=1694498815
+activeBlendColorDark=1677721600
+inactiveBlendColorDark=1677721600
+glassIntensity=1.000000
+aeroColorBalance=0.080000
+aeroAfterglowBalance=0.430000
+aeroBlurBalance=0.490000
+blurMethod=0
+effectType=0
+crossfadeTime=160
+overrideAccent=true
+occlusionCulling=true
+disableOnBattery=true
+titlebtnGlow=false
+disableFramerateLimit=true
+```
+Then, import it in DWM like the image below:
+![image](https://github.com/user-attachments/assets/12e6c621-ecf8-416d-88c4-670a77b2d66d)
+
+### MicaForEveryone
+Install it from here following the instructions given - ![url](https://github.com/MicaForEveryone)
+Click on ```Add new rule``` and type ```zen```. Under ```Style```, set background type to ```acrylic```.
 ![image](https://github.com/user-attachments/assets/9a2581af-4d14-49b7-8f03-d35bd034ad3a)
 
 
@@ -149,40 +211,11 @@ type to acrylic.
 * ### https://discord.com/channels/1088172780480114748/1340837003448684605
 * ### https://discord.com/channels/1088172780480114748/1342214828487344209
 * ### https://github.com/ferrocyante/vyang
+* ### https://github.com/JustAdumbPrsn/Nebula-A-Minimal-Theme-for-Zen-Browser
+* ### https://github.com/sameerasw/ZenZero
 
 ## Re-distribution info:
-You are totally free to make forks of this or put this in your chrome file and create or modify it according to yourself. It's suggested to credit me if you use my theme. Thank you for using Arc 2.0!
-
-## Video Tutorial!
-
-### ℹ️ Note
-
-> The video tutorials are shown for the Twilight version (except the last video).
-> For using it in Zen beta, you can simply paste the files in the Zen beta chrome folder.
-
-* ### Installing the browser skin
-
-  https://github.com/user-attachments/assets/083fe207-2889-4182-b03d-a0ad729d5893
-
-* ### Mods Installation
-
-  https://github.com/user-attachments/assets/9db7236d-9647-4ffb-a0a7-5ccc103dba49
-
-* ### Arc like copy link
-
-  https://github.com/user-attachments/assets/cc212458-6e19-4abd-b8cd-b942ffd94d74
-
-* ### Arc like extensions (video used before as well. Used here for completency)
-
-  https://github.com/user-attachments/assets/98e35d8f-5638-4791-8369-8ff964ad94df
-
-* ### Transparent websites
- 
-  https://github.com/user-attachments/assets/d797005e-bc4d-4237-a41f-35295629d57f
-
-* ### Sidebar transparency (For normal Zen not for Twilight)
-
-  https://github.com/user-attachments/assets/39ace8f9-5ca4-4f60-9c9e-966da5807a0f
+You are totally free to make forks of this or put this in your chrome file and create or modify it according to yourself. It's suggested to credit me if you use my theme. Thank you for using Arc 2.0.
 
 ## Please note that!
-I love you <3
+Ping `Equinox` and `perplectly fine` on Discord for support with issues.
