@@ -29,40 +29,38 @@ Arc 2.0 has been tested on 1.13.1b (Beta) on Windows. Note: It is not tested on 
 > made, chances are I'll keep it if I still like it. So please be respectful and refrain from attacking people when you
 > make suggestions. Thanks!
 
-## How to use? (Full video tutorial given below)
-Install the ZIP file from Releases. Extract it, then copy and paste the files of the ZIP file in the chrome folder. 
+## How to install and use? **(Traditional Method)**
+* Install the ZIP file from Releases. Extract it, then copy and paste the files of the ZIP file in the chrome folder. 
+* After installing the CSS files, open the browser and pin the Copy Frame or Page URL extension (extensions listed below).
+* Read `CONFIG.css` to edit prefs and add/edit prefs in ```about:config```.
+* Now install the mods and other extensions listed below and then alter the settings as listed below or according to yourself.
+* Adjust or change the different toolbar items according to the one I made like Arc (in the image) or according to yourself.
 
-After installing the CSS files, open the browser and pin the Copy Frame or Page URL extension (extensions listed below).
+## Install using ![Sine](https://github.com/CosmoCreeper/Sine)
+* Install Sine, a JS-based better mod and theme manager, using this link - ![url](https://github.com/CosmoCreeper/Sine/releases/tag/v1.2.1). **Follow instructions given ![here](https://github.com/CosmoCreeper/Sine).**
+  **(NOTE: This installs Sine, which has tested, stable builds. For testing newly introduced features, install Cosine - ![url](https://github.com/CosmoCreeper/Sine/releases/tag/v2.0-c.1)**)
+* Paste this link - ![url](https://github.com/YashjitPal/Arc-2.0/) - to install theme as shown below. Refresh Settings page if mod is not shown listed.
+  ![image](https://github.com/user-attachments/assets/56a921ee-3cdd-487a-814a-17d69f92a8c5)
 
-Now install the mods and other extensions listed below and then alter the settings as listed below or according to yourself.
-
-Enable the required configs from ```about:config```
-
-Adjust or change the different toolbar items according to the one i made like Arc (in the image) or according to yourself.
-
-Vallah! You got yourself a new browser which is arc but a lot more better!!!
+Congrats! You got yourself a new browser which is arc but a lot more better!!!
 
 This is what your chrome folder should look like:
 
 ![image](https://github.com/user-attachments/assets/1f5db909-e475-4129-acc7-3a215ac96731)
-<br>
+
 Also enable this from the settings:
 
 ![image](https://github.com/user-attachments/assets/994e74d5-5c29-4c11-8f50-8d6cf95f9b61)
+<br>
 **For further assistance with installation in case of any issue, ask in #zeneral channel of Zen Browser official Discord server.**
 
 ## How to get Arc like pinned extensions:
 
-* First go to settings.
-* Press Zen Mods.
-* Scroll and find ```Hide Plugins```.
-* Disable that addon.
 * Left click the addon icon.
 * Pin the extension.
 * Right click an empty area on the toolbar and press ```Customize Toolbar```.
 * Drag and drop the required extension above the essentials to make it look like Arc extensions.
 * Press the done button!
-* Go back to settings and enable the ```Hide Plugins``` mod.
 
 Below is the tutorial video:
 
@@ -88,14 +86,13 @@ https://github.com/user-attachments/assets/98e35d8f-5638-4791-8369-8ff964ad94df
  
   Link - https://addons.mozilla.org/en-US/firefox/addon/copy-frame-or-page-url/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
 
+
 ## Basic Configs required:
-Press Ctrl+T and open the floating URL bar and type "about:config". Press the tick button then type the following. After that press the ```boolean``` option and press the ```+``` button and set it to true or false for the following:
+Press `Ctrl + T` to open the floating URL bar and type "about:config" and press `Enter`. `Advanced Preferences` page will open where you need to add configs mentioned below as per the ways directed in `()`. Restart browser after applying all configs.
 * ### ```browser.tabs.allow_transparent_browser``` (*boolean > true*)
 * ### ```browser.urlbar.openintab``` (*boolean > true*) - **When typed something by clicking on the URL bar, opens a new tab instead of modifying the current tab.**
 * ### ```zen.widget.windows.acrylic``` (*boolean > false*) - **For using Mica for Everyone in the toolbar.**
 * ### ```browser.urlbar.trimURLs``` (*boolean > true*) - **Shortens URL Bar to only show domain name.**
-
-## Other Essential Configs:
 * ### ```arc-tab-loading-animation``` (_Number_) - **Animation while the website loads.**
   **0: No animation;**
   **1: Blur (*Added by default, not needed to be added in `about:config`*);**
@@ -118,8 +115,10 @@ Press Ctrl+T and open the floating URL bar and type "about:config". Press the ti
   **1: No Animation;**
   **2: Capsule Background**
 * ### ```arc-disable-container-styling``` (_Boolean > True_) - **Disables Container styling.**
+* ### ```arc-compact-mode-no-sidebar-bg``` (_Boolean > True_) - **Removes Pseudo background on compact sidebar. Enable it if you don't use transparent websites.**
 * ### ```browser.ml.linkPreview.enabled``` (_Boolean > True_) - **Press `Shift + Alt` while hovering mouse over a link to generate AI based summarized preview of the content inside.**
 * ### ```browser.ml.linkPreview.outputSentences``` (_Number_) - **Set the number of sentences you want AI based summarized preview of a website in.**
+* ### ```browser.tabs.fadeOutUnloadedTabs``` (_Boolean > True_) - **Fades unloaded tabs in background.**
 * ### ```browser.low_commit_space_threshold_mb``` (_Number_) - **Set the amount of memory left free in your system to activate tab unloading. Recommended to set it 2/3rd of your total RAM.**
 * ### ```browser.tabs.min_inactive_duration_before_unload``` (_Number_) - **Under above config, set the duration (in milliseconds) in which tab unloading should be executed.**
 * ### ```dom.ipc.processPriorityManager.backgroundUsesEcoQoS``` (_Boolean > True_) - **Makes browser run on performance efficiency mode.**
