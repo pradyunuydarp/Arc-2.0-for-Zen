@@ -49,7 +49,7 @@ This is what your chrome folder should look like:
 Also enable this from the settings:
 
 ![image](https://github.com/user-attachments/assets/994e74d5-5c29-4c11-8f50-8d6cf95f9b61)
-
+**For further assistance with installation in case of any issue, ask in #zeneral channel of Zen Browser official Discord server.**
 
 ## How to get Arc like pinned extensions:
 
