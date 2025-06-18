@@ -45,7 +45,7 @@ Vallah! You got yourself a new browser which is arc but a lot more better!!!
 This is what your chrome folder should look like:
 
 ![image](https://github.com/user-attachments/assets/1f5db909-e475-4129-acc7-3a215ac96731)
-
+<br>
 Also enable this from the settings:
 
 ![image](https://github.com/user-attachments/assets/994e74d5-5c29-4c11-8f50-8d6cf95f9b61)
