@@ -32,8 +32,8 @@ Arc 2.0 has been tested on 1.13.1b (Beta) on Windows. Note: It is not tested on 
 ## How to install and use? **(Traditional Method)**
 * Install the ZIP file from Releases. Extract it, then copy and paste the files of the ZIP file in the chrome folder. 
 * After installing the CSS files, open the browser and pin the Copy Frame or Page URL extension (extensions listed below).
+* Read `CONFIG.css` to edit prefs and add/edit prefs in ```about:config```.
 * Now install the mods and other extensions listed below and then alter the settings as listed below or according to yourself.
-* Enable the required configs from ```about:config```
 * Adjust or change the different toolbar items according to the one I made like Arc (in the image) or according to yourself.
 
 ## Install using ![Sine](https://github.com/CosmoCreeper/Sine)
@@ -41,7 +41,6 @@ Arc 2.0 has been tested on 1.13.1b (Beta) on Windows. Note: It is not tested on 
   **(NOTE: This installs Sine, which has tested, stable builds. For testing newly introduced features, install Cosine - ![url](https://github.com/CosmoCreeper/Sine/releases/tag/v2.0-c.1)**)
 * Paste this link - ![url](https://github.com/YashjitPal/Arc-2.0/) - to install theme as shown below. Refresh Settings page if mod is not shown listed.
   ![image](https://github.com/user-attachments/assets/56a921ee-3cdd-487a-814a-17d69f92a8c5)
-
 
 Congrats! You got yourself a new browser which is arc but a lot more better!!!
 
