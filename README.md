@@ -38,31 +38,27 @@ Now install the mods and other extensions listed below and then alter the settin
 
 Enable the required configs from ```about:config```
 
-Adjust or change the different toolbar items according to the one i made like Arc (in the image) or according to yourself.
+Adjust or change the different toolbar items according to the one I made like Arc (in the image) or according to yourself.
 
-Vallah! You got yourself a new browser which is arc but a lot more better!!!
+Congrats! You got yourself a new browser which is arc but a lot more better!!!
 
 This is what your chrome folder should look like:
 
 ![image](https://github.com/user-attachments/assets/1f5db909-e475-4129-acc7-3a215ac96731)
-<br>
+
 Also enable this from the settings:
 
 ![image](https://github.com/user-attachments/assets/994e74d5-5c29-4c11-8f50-8d6cf95f9b61)
+<br>
 **For further assistance with installation in case of any issue, ask in #zeneral channel of Zen Browser official Discord server.**
 
 ## How to get Arc like pinned extensions:
 
-* First go to settings.
-* Press Zen Mods.
-* Scroll and find ```Hide Plugins```.
-* Disable that addon.
 * Left click the addon icon.
 * Pin the extension.
 * Right click an empty area on the toolbar and press ```Customize Toolbar```.
 * Drag and drop the required extension above the essentials to make it look like Arc extensions.
 * Press the done button!
-* Go back to settings and enable the ```Hide Plugins``` mod.
 
 Below is the tutorial video:
 
@@ -94,8 +90,6 @@ Press Ctrl+T and open the floating URL bar and type "about:config". Press the ti
 * ### ```browser.urlbar.openintab``` (*boolean > true*) - **When typed something by clicking on the URL bar, opens a new tab instead of modifying the current tab.**
 * ### ```zen.widget.windows.acrylic``` (*boolean > false*) - **For using Mica for Everyone in the toolbar.**
 * ### ```browser.urlbar.trimURLs``` (*boolean > true*) - **Shortens URL Bar to only show domain name.**
-
-## Other Essential Configs:
 * ### ```arc-tab-loading-animation``` (_Number_) - **Animation while the website loads.**
   **0: No animation;**
   **1: Blur (*Added by default, not needed to be added in `about:config`*);**
@@ -118,8 +112,10 @@ Press Ctrl+T and open the floating URL bar and type "about:config". Press the ti
   **1: No Animation;**
   **2: Capsule Background**
 * ### ```arc-disable-container-styling``` (_Boolean > True_) - **Disables Container styling.**
+* ### ```arc-compact-mode-no-sidebar-bg``` (_Boolean > True_) - **Removes Pseudo background on compact sidebar. Enable it if you don't use transparent websites.**
 * ### ```browser.ml.linkPreview.enabled``` (_Boolean > True_) - **Press `Shift + Alt` while hovering mouse over a link to generate AI based summarized preview of the content inside.**
 * ### ```browser.ml.linkPreview.outputSentences``` (_Number_) - **Set the number of sentences you want AI based summarized preview of a website in.**
+* ### ```browser.tabs.fadeOutUnloadedTabs``` (_Boolean > True_) - **Fades unloaded tabs in background.**
 * ### ```browser.low_commit_space_threshold_mb``` (_Number_) - **Set the amount of memory left free in your system to activate tab unloading. Recommended to set it 2/3rd of your total RAM.**
 * ### ```browser.tabs.min_inactive_duration_before_unload``` (_Number_) - **Under above config, set the duration (in milliseconds) in which tab unloading should be executed.**
 * ### ```dom.ipc.processPriorityManager.backgroundUsesEcoQoS``` (_Boolean > True_) - **Makes browser run on performance efficiency mode.**
