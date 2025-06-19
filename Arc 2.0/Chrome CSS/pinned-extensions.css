@@ -1,7 +1,7 @@
 /*Credit: JustAdumbPrsn*/
 /* ------------------------- PINNED EXTENSIONS ------------------------- */
 
-@media (-moz-pref("nebula-pinned-extensions-mod")) {
+@media (-moz-pref("arc-pinned-extensions-mod")) {
 /* Zen 1.12.6b Fix */
 :root[customizing] #TabsToolbar-customization-target {
   visibility: visible !important;
