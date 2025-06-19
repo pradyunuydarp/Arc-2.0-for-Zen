@@ -29,9 +29,12 @@ Arc 2.0 has been tested on 1.13.1b (Beta) on Windows. Note: It is not tested on 
 > made, chances are I'll keep it if I still like it. So please be respectful and refrain from attacking people when you
 > make suggestions. Thanks!
 
+## How to direct to `chrome` folder
+Go to `about:profiles`, scroll to the profiles you want this theme in, then select `Open Folder` in the row of **Root Directory**. Next, open `chrome` folder and follow the steps below for **Traditional Method**. If `chrome` folder doesn't exist, create one.
+**(NOTE: Name of the folder must be in lowercase.**
 ## How to install and use? **(Traditional Method)**
-* Install the ZIP file from Releases. Extract it, then copy and paste the files of the ZIP file in the chrome folder.
-* After installing the CSS files, open the browser. If there are issue with icons, install the `SF-Symbols.ttf` font in the extracted ZIP file. Next, set that as `Default font` in **Settings > General > Language and Appearance**.
+* Install the ZIP file from Releases. Extract it, then copy and paste the files of the ZIP file in the `chrome` folder as shown above.
+* After installing the CSS files, open the browser. If there are issue with icons, install the `SF-Symbols.ttf` font in the extracted ZIP file (`Arc 2.0 > Chrome CSS > font` folder). Next, set that as `Default font` in **Settings > General > Language and Appearance**.
   ![image](https://github.com/user-attachments/assets/575d252b-7e30-4b23-adca-1a0f21b2ae7f)
   ![image](https://github.com/user-attachments/assets/6d8f8217-b1f0-4ccc-96e0-437743d28562)
 * Read `CONFIG.css` to edit prefs and add/edit configs in ```about:config```.
@@ -43,20 +46,23 @@ Arc 2.0 has been tested on 1.13.1b (Beta) on Windows. Note: It is not tested on 
   **(NOTE: This installs Sine, which has tested, stable builds. For testing newly introduced features, install Cosine - https://github.com/CosmoCreeper/Sine/releases/tag/v2.0-c.1**)
 * Paste this link - https://github.com/YashjitPal/Arc-2.0/ - to install theme as shown below. Refresh Settings page if mod is not shown listed.
   ![image](https://github.com/user-attachments/assets/56a921ee-3cdd-487a-814a-17d69f92a8c5)
-* If there are issues with icons, install the `SF-Symbols.ttf` font in the extracted ZIP file. Next, set that as `Default font` in **Settings > General > Language and Appearance**. See images above in **Traditional Method** for reference.
+  
+* To locate `Arc 2.0` folder for configuration purpose with **Sine v1.2.1**, you need to go to `chrome > zen-themes > Arc 2.0`. Inside this, all files and folders are there for configurations desired.
+  ![image](https://github.com/user-attachments/assets/d69be07f-7297-47b7-ae5b-472f436d6003)
+  
+* To locate `Arc 2.0` folder for configuration purpose with **Cosine v2**, you need to go to `chrome > sine-mods > Arc-2.0`. Inside this, all files and folders are there for configurations deisred.
+  ![image](https://github.com/user-attachments/assets/3b71cf3a-9650-4f26-ab09-204fb5355bb4)
+  
+* If there are issues with icons, install the `SF-Symbols.ttf` font in the extracted ZIP file (`Arc 2.0 > Chrome CSS > font` folder). Next, set that as `Default font` in **Settings > General > Language and Appearance**.
+  *See images above in **Traditional Method** for reference.
 * Read `CONFIG.css` to edit prefs and add/edit configs in ```about:config```.
 * Now install the mods and other extensions listed below and then alter the settings as listed below or according to yourself.
 * Adjust or change the different toolbar items according to the one I made like Arc (in the image) or according to yourself.
 
-Congrats! You got yourself a new browser which is arc but a lot more better!!!
-
-This is what your chrome folder should look like:
-
-![image](https://github.com/user-attachments/assets/1f5db909-e475-4129-acc7-3a215ac96731)
-
-Also enable this from the settings:
-
+**Also enable this from the settings:**
 ![image](https://github.com/user-attachments/assets/994e74d5-5c29-4c11-8f50-8d6cf95f9b61)
+
+Congrats! You got yourself a new browser which is arc but a lot more better!!!
 <br>
 **For further assistance with installation in case of any issue, ask in #zeneral channel of Zen Browser official Discord server.**
 
