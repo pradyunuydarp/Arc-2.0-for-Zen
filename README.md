@@ -30,17 +30,23 @@ Arc 2.0 has been tested on 1.13.1b (Beta) on Windows. Note: It is not tested on 
 > make suggestions. Thanks!
 
 ## How to install and use? **(Traditional Method)**
-* Install the ZIP file from Releases. Extract it, then copy and paste the files of the ZIP file in the chrome folder. 
-* After installing the CSS files, open the browser and pin the Copy Frame or Page URL extension (extensions listed below).
-* Read `CONFIG.css` to edit prefs and add/edit prefs in ```about:config```.
+* Install the ZIP file from Releases. Extract it, then copy and paste the files of the ZIP file in the chrome folder.
+* After installing the CSS files, open the browser. If there are issue with icons, install the `SF-Symbols.ttf` font in the extracted ZIP file. Next, set that as `Default font` in **Settings > General > Language and Appearance**.
+  ![image](https://github.com/user-attachments/assets/575d252b-7e30-4b23-adca-1a0f21b2ae7f)
+  ![image](https://github.com/user-attachments/assets/6d8f8217-b1f0-4ccc-96e0-437743d28562)
+* Read `CONFIG.css` to edit prefs and add/edit configs in ```about:config```.
 * Now install the mods and other extensions listed below and then alter the settings as listed below or according to yourself.
 * Adjust or change the different toolbar items according to the one I made like Arc (in the image) or according to yourself.
 
 ## Install using ![Sine](https://github.com/CosmoCreeper/Sine)
-* Install Sine, a JS-based better mod and theme manager, using this link - ![url](https://github.com/CosmoCreeper/Sine/releases/tag/v1.2.1). **Follow instructions given ![here](https://github.com/CosmoCreeper/Sine).**
-  **(NOTE: This installs Sine, which has tested, stable builds. For testing newly introduced features, install Cosine - ![url](https://github.com/CosmoCreeper/Sine/releases/tag/v2.0-c.1)**)
-* Paste this link - ![url](https://github.com/YashjitPal/Arc-2.0/) - to install theme as shown below. Refresh Settings page if mod is not shown listed.
+* Install Sine, a JS-based better mod and theme manager, using this link - https://github.com/CosmoCreeper/Sine/releases/tag/v1.2.1. **Follow instructions given ![here](https://github.com/CosmoCreeper/Sine).**
+  **(NOTE: This installs Sine, which has tested, stable builds. For testing newly introduced features, install Cosine - https://github.com/CosmoCreeper/Sine/releases/tag/v2.0-c.1**)
+* Paste this link - https://github.com/YashjitPal/Arc-2.0/ - to install theme as shown below. Refresh Settings page if mod is not shown listed.
   ![image](https://github.com/user-attachments/assets/56a921ee-3cdd-487a-814a-17d69f92a8c5)
+* If there are issues with icons, install the `SF-Symbols.ttf` font in the extracted ZIP file. Next, set that as `Default font` in **Settings > General > Language and Appearance**. See images above in **Traditional Method** for reference.
+* Read `CONFIG.css` to edit prefs and add/edit configs in ```about:config```.
+* Now install the mods and other extensions listed below and then alter the settings as listed below or according to yourself.
+* Adjust or change the different toolbar items according to the one I made like Arc (in the image) or according to yourself.
 
 Congrats! You got yourself a new browser which is arc but a lot more better!!!
 
