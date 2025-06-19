@@ -59,7 +59,7 @@ Go to `about:profiles`, scroll to the profiles you want this theme in, then sele
 * Now install the mods and other extensions listed below and then alter the settings as listed below or according to yourself.
 * Adjust or change the different toolbar items according to the one I made like Arc (in the image) or according to yourself.
 
-**Also enable this from the settings:** <br>
+**Also enable this from the `Settings > Look and Feel > Zen URL Bar`:** <br>
 ![image](https://github.com/user-attachments/assets/994e74d5-5c29-4c11-8f50-8d6cf95f9b61)
 
 Congrats! You got yourself a new browser which is arc but a lot more better!!!
