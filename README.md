@@ -61,7 +61,7 @@ Also enable this from the settings:
 **For further assistance with installation in case of any issue, ask in #zeneral channel of Zen Browser official Discord server.**
 
 ## How to get Arc like pinned extensions:
-
+* Go to `about:config` and add config - `arc-pinned-extensions-mod` (_Boolean > True_).
 * Left click the addon icon.
 * Pin the extension.
 * Right click an empty area on the toolbar and press ```Customize Toolbar```.
@@ -99,6 +99,7 @@ Press `Ctrl + T` to open the floating URL bar and type "about:config" and press 
 * ### ```browser.urlbar.openintab``` (*boolean > true*) - **When typed something by clicking on the URL bar, opens a new tab instead of modifying the current tab.**
 * ### ```zen.widget.windows.acrylic``` (*boolean > false*) - **For using Mica for Everyone in the toolbar.**
 * ### ```browser.urlbar.trimURLs``` (*boolean > true*) - **Shortens URL Bar to only show domain name.**
+* ### ```arc-pinned-extensions-mod``` (_boolean > true_)  - **Make pinned extensions looks like Arc, as shown in image above.**
 * ### ```arc-tab-loading-animation``` (_Number_) - **Animation while the website loads.**
   **0: No animation;**
   **1: Blur (*Added by default, not needed to be added in `about:config`*);**
