@@ -23,6 +23,7 @@
         "type": "checkbox",
         "label": "To enable Tab Groups."
         "property": "browser.tabs.groups.enabled"
+    },
     {
         "type": "separator"
     },
