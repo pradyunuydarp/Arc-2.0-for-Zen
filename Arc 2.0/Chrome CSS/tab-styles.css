@@ -10,69 +10,52 @@
       width: 32px !important;
   }
   
-  /* ------------------- Container Tabs Styling ------------------- */
-  
+ @-moz-document url-prefix("chrome:") {
+  /* ======== containers ======= */
   @media not (-moz-pref("arc-disable-container-styling")) {
-    
-    #userContext-icons {
-    /* URLbar of container tabs */
-    width: 5px !important;
-    height: 14px !important;
-    border-radius: 3px !important;
-    background-color: var(--identity-tab-color) !important;
-    opacity: 0.8;
-    margin: 0 6px 0 2px !important;
-  }
-    
-    tab {
-      .tab-background {
-        flex-direction: unset !important;
-    
-        .tab-context-line {
-          display: flex !important;
-          box-sizing: border-box !important;
-    
-          width: 24px !important;
-          height: 24px !important;
-          margin: auto 5px !important;
-          border-radius: 0.7rem !important;
-          background: color-mix(
-            in srgb,
-            var(--identity-tab-color) 30%,
-            transparent
-          ) !important;
-          transition: all 0.3s ease-in-out !important;
-        }
-      }
-      
-      &:hover .tab-context-line {
-        filter: blur(12px) !important;
+  tab {
+    .tab-background {
+      flex-direction: unset !important;
+  
+      .tab-context-line {
+        display: flex !important;
+        box-sizing: border-box !important;
+  
+        width: 22px !important;
+        height: 22px !important;
+        margin: auto 6px !important;
+        border-radius: 0.7rem !important;
+        /*   background-color: color-mix(in srgb, var(--identity-tab-color) 20%, white), !important; */
+        background: color-mix(
+          in srgb,
+          var(--identity-tab-color) 30%,
+          transparent
+        ) !important;
+  
+        border: 1.5px var(--identity-tab-color) solid !important;
+        transition: all 0.3s ease-in-out !important;
       }
     }
-    
-    [uidensity="compact"] tab .tab-background .tab-context-line {
-      margin: auto 5px !important;
+    &:hover .tab-context-line, & .tab-background[selected] .tab-context-line{
+      filter: blur(10px) !important;
+      border: 12px var(--identity-tab-color) solid !important;
     }
-    
-    tab[zen-essential="true"] .tab-background .tab-context-line {
-      margin: auto !important;
-      z-index: 1000 !important;
-    }
-    
-    tab[discarded=""]:hover,
-    tab[pending="true"]:hover {
-      filter: grayscale(0) !important;
-    }
-  
   }
-
   
-.tabbrowser-tab[usercontextid] .tab-icon-image {
-  position: relative;
-  z-index: 1;
-  filter: drop-shadow(0 0 5px var(--identity-tab-color));
+  [uidensity="compact"] tab .tab-background .tab-context-line {
+    margin: auto 5px !important;
+  }
+  
+  tab[zen-essential="true"] .tab-background .tab-context-line {
+    margin: auto !important;
+    z-index: 1000 !important;
+  }
+  
+  tab[discarded=""]:hover,
+  tab[pending="true"]:hover {
+    filter: grayscale(0) !important;
+  }
 }
-  
   /* ------------------- Close and Reset Button Styling ------------------- 
   
   .tab-reset-pin-button {
