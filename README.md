@@ -29,35 +29,35 @@ Arc 2.0 has been tested on 1.13.1b (Beta) on Windows. Note: It is not tested on 
 > made, chances are I'll keep it if I still like it. So please be respectful and refrain from attacking people when you
 > make suggestions. Thanks!
 
-## How to direct to `chrome` folder
-Go to `about:profiles`, scroll to the profiles you want this theme in, then select `Open Folder` in the row of **Root Directory**. Next, open `chrome` folder and follow the steps below for **Traditional Method**. If `chrome` folder doesn't exist, create one.
-**(NOTE: Name of the folder must be in lowercase.**
-## How to install and use? **(Traditional Method)**
-* Install the ZIP file from Releases. Extract it, then copy and paste the files of the ZIP file in the `chrome` folder as shown above.
-* After installing the CSS files, open the browser. If there are issue with icons, install the `SF-Symbols.ttf` font in the extracted ZIP file (`Arc 2.0 > Chrome CSS > font` folder). Next, set that as `Default font` in **Settings > General > Language and Appearance**.
-  ![image](https://github.com/user-attachments/assets/575d252b-7e30-4b23-adca-1a0f21b2ae7f)
+## Install using ![Sine](https://github.com/CosmoCreeper/Sine) **[RECOMMENDED]**
+* Install **Sine**, a JS-based better mod and theme manager, using this link - https://github.com/CosmoCreeper/Sine/releases/tag/v1.2.1. **For more information about Sine, click ![here](https://github.com/CosmoCreeper/Sine).**
+  **(NOTE: This installs Sine, which has tested, stable builds. For testing newly introduced features, install Cosine - https://github.com/CosmoCreeper/Sine/releases/tag/v2.0-c.1**)
+* Paste this link - https://github.com/YashjitPal/Arc-2.0/ - to install theme as shown below. Refresh Settings page if mod is not shown listed.
+  ![image](https://github.com/user-attachments/assets/56a921ee-3cdd-487a-814a-17d69f92a8c5)
+* Configure Personalization prefs and configs using the Settings button located in details of theme installed as shown in image below.
+  ![image](https://github.com/user-attachments/assets/a063023e-c1d3-4618-bc84-4e17db06d4a3)
+
+* To locate `Arc 2.0` folder for other configuration purpose with **Sine v1.2.1** or the theme itself, you need to go to `chrome > zen-themes > Arc 2.0`. Inside this, all files and folders are there for configurations desired.
+  ![image](https://github.com/user-attachments/assets/d69be07f-7297-47b7-ae5b-472f436d6003)
+  
+* To locate `Arc 2.0` folder for other configuration purpose with **Cosine v2.0c** or the theme itself, you need to go to `chrome > sine-mods > Arc-2.0`. Inside this, all files and folders are there for configurations deisred.<br>
+  **[ALERT:** Latest Cosine build, `v2.0-c.1`, is **unstable**; thus use the version mentioned above.]
+  ![image](https://github.com/user-attachments/assets/3b71cf3a-9650-4f26-ab09-204fb5355bb4)
+  
+* If there are issues with icons, install the `SF-Symbols.ttf` font in the extracted ZIP file (`Arc 2.0 > Chrome CSS > font` folder). Next, set that as `Default font` in **Settings > General > Language and Appearance**.
   ![image](https://github.com/user-attachments/assets/6d8f8217-b1f0-4ccc-96e0-437743d28562)
+
+## Install using ZIP files **(Traditional Method)**
+Go to `about:profiles`, scroll to the profiles you want this theme in, then select `Open Folder` in the row of **Root Directory**. Next, open `chrome` folder and follow the steps below for **Traditional Method**. If `chrome` folder doesn't exist, create one.
+**(NOTE: Name of the folder must be in lowercase.** 
+* Install the ZIP file from Releases. Extract it, then copy and paste the files of the ZIP file in the `chrome` folder as shown above.
+* After installing the CSS files, open the browser. If there are issue with icons, install the `SF-Symbols.ttf` font in the extracted ZIP file (`Arc 2.0 > Chrome CSS > font` folder). Next, set that as `Default font` in **Settings > General > Language and Appearance** as shown in image above in **Sine installation**.
 * Read `CONFIG.css` to edit prefs and add/edit configs in ```about:config```.
 * Now install the mods and other extensions listed below and then alter the settings as listed below or according to yourself.
 * Adjust or change the different toolbar items according to the one I made like Arc (in the image) or according to yourself.
 
-## Install using ![Sine](https://github.com/CosmoCreeper/Sine)
-* Install Sine, a JS-based better mod and theme manager, using this link - https://github.com/CosmoCreeper/Sine/releases/tag/v1.2.1. **Follow instructions given ![here](https://github.com/CosmoCreeper/Sine).**
-  **(NOTE: This installs Sine, which has tested, stable builds. For testing newly introduced features, install Cosine - https://github.com/CosmoCreeper/Sine/releases/tag/v2.0-c.1**)
-* Paste this link - https://github.com/YashjitPal/Arc-2.0/ - to install theme as shown below. Refresh Settings page if mod is not shown listed.
-  ![image](https://github.com/user-attachments/assets/56a921ee-3cdd-487a-814a-17d69f92a8c5)
-  
-* To locate `Arc 2.0` folder for configuration purpose with **Sine v1.2.1**, you need to go to `chrome > zen-themes > Arc 2.0`. Inside this, all files and folders are there for configurations desired.
-  ![image](https://github.com/user-attachments/assets/d69be07f-7297-47b7-ae5b-472f436d6003)
-  
-* To locate `Arc 2.0` folder for configuration purpose with **Cosine v2**, you need to go to `chrome > sine-mods > Arc-2.0`. Inside this, all files and folders are there for configurations deisred.
-  ![image](https://github.com/user-attachments/assets/3b71cf3a-9650-4f26-ab09-204fb5355bb4)
-  
-* If there are issues with icons, install the `SF-Symbols.ttf` font in the extracted ZIP file (`Arc 2.0 > Chrome CSS > font` folder). Next, set that as `Default font` in **Settings > General > Language and Appearance**.
-  *See images above in **Traditional Method** for reference.
-* Read `CONFIG.css` to edit prefs and add/edit configs in ```about:config```.
-* Now install the mods and other extensions listed below and then alter the settings as listed below or according to yourself.
-* Adjust or change the different toolbar items according to the one I made like Arc (in the image) or according to yourself.
+
+
 
 **Also enable this from the `Settings > Look and Feel > Zen URL Bar`:** <br>
 ![image](https://github.com/user-attachments/assets/994e74d5-5c29-4c11-8f50-8d6cf95f9b61)
@@ -99,12 +99,13 @@ https://github.com/user-attachments/assets/98e35d8f-5638-4791-8369-8ff964ad94df
   Link - https://addons.mozilla.org/en-US/firefox/addon/copy-frame-or-page-url/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
 
 
-## Basic Configs required:
+## Basic Configs required **[No need to go to `about:config` if Sine used for installation. All prefs are available in mod settings as shown in image in installation process above👆.**
 Press `Ctrl + T` to open the floating URL bar and type "about:config" and press `Enter`. `Advanced Preferences` page will open where you need to add configs mentioned below as per the ways directed in `()`. Restart browser after applying all configs.
 * ### ```browser.tabs.allow_transparent_browser``` (*boolean > true*)
 * ### ```browser.urlbar.openintab``` (*boolean > true*) - **When typed something by clicking on the URL bar, opens a new tab instead of modifying the current tab.**
 * ### ```zen.widget.windows.acrylic``` (*boolean > false*) - **For using Mica for Everyone in the toolbar.**
 * ### ```browser.urlbar.trimURLs``` (*boolean > true*) - **Shortens URL Bar to only show domain name.**
+* ### ```browser.tabs.groups.enabled``` (_boolean > true_) - **Enables Tab Groups.**
 * ### ```arc-pinned-extensions-mod``` (_boolean > true_)  - **Make pinned extensions looks like Arc, as shown in image above.**
 * ### ```arc-tab-loading-animation``` (_Number_) - **Animation while the website loads.**
   **0: No animation;**
@@ -141,6 +142,9 @@ Press `Ctrl + T` to open the floating URL bar and type "about:config" and press 
   ![image](https://github.com/user-attachments/assets/0c884a5e-92c9-4bae-8ecb-4c683da859a2)
 * ### Arc like pinned extensions and minimal URL Bar:
   ![image](https://github.com/user-attachments/assets/c4c8e9a1-8ef4-4c06-9335-df7f839814d4)
+* ### Better looking Tab Groups:
+![image](https://github.com/user-attachments/assets/177eebf8-1c43-49d7-8509-90dc1161b4dd)
+![image](https://github.com/user-attachments/assets/b0314a00-1726-4364-922f-04297bf9ecfd)
 * ### Floating URL Bar with Blur Background:
   ![image](https://github.com/user-attachments/assets/03a63255-9520-46c6-8468-f0579d97ad10)
 * ### Better ```Customize Toolbar```:
