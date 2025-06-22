@@ -24,62 +24,51 @@
   font-family: "Color-Emoji" !important;
 }
 
-#back-button,
-#forward-button,
-#reload-button {
-  list-style-image: url("no.svg") !important;
+/*back*/
+#back-button {
+  list-style-image: url("left-arrow.svg") !important;
   opacity: 0.7;
+  filter: invert(1);
+  width: 25px !important;   /* Increased by 25px (was likely 25px default) */
+  height: 25px !important;
+  transition: transform 0.1s, opacity 0.1s;
+  background-size: 25px 25px !important;
 }
 
-#back-button:before {
-  content: "";
-  margin-right: -19px;
-  font-family: "SF-Symbols";
+/*forward*/
+#forward-button {
+  list-style-image: url("right-arrow.svg") !important;
+  opacity: 0.7;
+  filter: invert(1);
+  width: 25px !important;
+  height: 25px !important;
+  transition: transform 0.1s, opacity 0.1s;
+  background-size: 25px 25px !important;
 }
 
-#forward-button:before {
-  content: "";
-  margin-right: -19px;
-  font-family: "SF-Symbols";
+/*reload*/
+#reload-button {
+  list-style-image: url("reload.svg") !important;
+  opacity: 0.7;
+  filter: invert(1);
+  width: 25px !important;
+  height: 25px !important;
+  transition: transform 0.1s, opacity 0.1s;
+  background-size: 25px 25px !important;
 }
 
-#reload-button:before {
-  content: "";
-  margin-right: -19px;
-  font-size: 15px;
-  margin-top: -2px;
-  font-family: "SF-Symbols";
-  transition: 0.1s;
-  transform-origin: 5px 15px;
+/* Hover effect: brighten and scale up */
+#back-button:hover,
+#forward-button:hover,
+#reload-button:hover {
+  opacity: 1;
+  transform: scale(1.15);
 }
 
-#reload-button:active::before {
-  rotate: 20deg;
+/* Active/click effect: press down and dim */
+#back-button:active,
+#forward-button:active,
+#reload-button:active {
+  opacity: 0.5;
+  transform: scale(0.95);
 }
-
-/*#PanelUI-zen-gradient-degrees {
-  border-style: dotted !important;
-  opacity: 0.7 !important;
-}*/
-
-/* Removes borders */
-#urlbar-background {
-  border: 0 !important;
-}
-
-/* Hide attention icon (green dot) under tab icons - Reddit:  https://www.reddit.com/r/zen_browser/comments/1i1c4mt 
-#navigator-toolbox {
-  .tabbrowser-tab:is([image], [pinned])
-    > .tab-stack
-    > .tab-content[attention]:not([selected]),
-  .tabbrowser-tab
-    > .tab-stack
-    > .tab-content[pinned][titlechanged]:not([selected]) {
-    background-image: none !important;
-  }
-  .tabbrowser-tab
-    > .tab-stack
-    > .tab-content[titlechanged]:not([selected="true"]) {
-    background-image: none !important;
-  }
-}*/
