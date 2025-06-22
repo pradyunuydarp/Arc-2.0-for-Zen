@@ -11,7 +11,7 @@
     },
     {
         "type": "checkbox",
-        "label": "For using Mica for Everyone in the toolbar.",
+        "label": "For using MicaForEveryone in the toolbar.",
         "property": "zen.widget.windows.arcylic"
     },
     {
@@ -19,6 +19,10 @@
         "label": "Shortens URL Bar to only show domain name.",
         "property": "browser.urlbar.trimURLs"
     },
+    {
+        "type": "checkbox",
+        "label": "To enable Tab Groups."
+        "property": "browser.tabs.groups.enabled"
     {
         "type": "separator"
     },
