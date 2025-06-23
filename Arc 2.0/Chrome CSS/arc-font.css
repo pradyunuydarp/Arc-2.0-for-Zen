@@ -60,7 +60,11 @@
 /* Hover effect: brighten and scale up */
 #back-button:hover,
 #forward-button:hover,
-#reload-button:hover {
+#reload-button:hover,
+#downloads-button:hover,
+#unified-extensions-button:hover,
+#PanelUI-menu-button:hover,
+#zen-create-new-button:hover {
   opacity: 1;
   transform: scale(1.15);
 }
@@ -68,7 +72,11 @@
 /* Active/click effect: press down and dim */
 #back-button:active,
 #forward-button:active,
-#reload-button:active {
+#reload-button:active,
+#downloads-button:active,
+#unified-extensions-button:active,
+#PanelUI-menu-button:active,
+#zen-create-new-button:active {
   opacity: 0.5;
   transform: scale(0.95);
 }
