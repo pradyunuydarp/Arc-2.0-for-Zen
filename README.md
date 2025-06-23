@@ -44,14 +44,10 @@ Arc 2.0 has been tested on 1.13.1b (Beta) on Windows. Note: It is not tested on 
   **[ALERT:** Latest Cosine build, `v2.0-c.1`, is **unstable**; thus use the version mentioned above.]
   ![image](https://github.com/user-attachments/assets/3b71cf3a-9650-4f26-ab09-204fb5355bb4)
   
-* If there are issues with icons, install the `SF-Symbols.ttf` font in the extracted ZIP file (`Arc 2.0 > Chrome CSS > font` folder). Next, set that as `Default font` in **Settings > General > Language and Appearance**.
-  ![image](https://github.com/user-attachments/assets/6d8f8217-b1f0-4ccc-96e0-437743d28562)
-
 ## Install using ZIP files **(Traditional Method)**
 Go to `about:profiles`, scroll to the profiles you want this theme in, then select `Open Folder` in the row of **Root Directory**. Next, open `chrome` folder and follow the steps below for **Traditional Method**. If `chrome` folder doesn't exist, create one.
 **(NOTE: Name of the folder must be in lowercase.** 
 * Install the ZIP file from Releases. Extract it, then copy and paste the files of the ZIP file in the `chrome` folder as shown above.
-* After installing the CSS files, open the browser. If there are issue with icons, install the `SF-Symbols.ttf` font in the extracted ZIP file (`Arc 2.0 > Chrome CSS > font` folder). Next, set that as `Default font` in **Settings > General > Language and Appearance** as shown in image above in **Sine installation**.
 * Read `CONFIG.css` to edit prefs and add/edit configs in ```about:config```.
 * Now install the mods and other extensions listed below and then alter the settings as listed below or according to yourself.
 * Adjust or change the different toolbar items according to the one I made like Arc (in the image) or according to yourself.
