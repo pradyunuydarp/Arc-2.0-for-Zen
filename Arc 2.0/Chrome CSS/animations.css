@@ -74,10 +74,13 @@
       transition: none !important;
     }
     #main-window:has(.tabbrowser-tab[selected][busy]) .browserSidebarContainer:not([zen-split="true"]),
-    #main-window:has(.tabbrowser-tab[selected]:not([busy])) .browserSidebarContainer:not([zen-split="true"]) {
-      filter: none !important;
-      transform: none !important;
-      transition-delay: 0s !important;
+    #main-window:has(.tabbrowser-tab[selected]:not([busy])) .browserSidebarContainer:not([zen-split="true"]) 
+  {
+    filter: none !important;
+
+    transform: none !important;
+
+    transition-delay: 0s !important;
     }
   }
   
@@ -183,7 +186,38 @@
   }
 }
 /* ----------------- Other animations ------------------ */
+/* ------------------ Custom Split View Animation ------------------- */
+
+@keyframes scaleAndBrighten {
   
+  0% {
+    transform: scale(0.95);
+    opacity: 0;
+    filter: brightness(0);
+  }
+
+  50% {
+    filter: brightness(0);
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    filter: brightness(1);
+  }
+}
+
+#tabbrowser-tabpanels[zen-split-view="true"] {
+  transition: none !important;
+}
+
+#tabbrowser-tabpanels[zen-split-view="true"] .browserSidebarContainer {
+
+  animation: scaleAndBrighten 0.6s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+}
+  
+
+
   /* website view animations [works for split tabs] */
   #browser:not(:has(.zen-glance-background)) #tabbrowser-tabpanels {
     transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.35) !important;
