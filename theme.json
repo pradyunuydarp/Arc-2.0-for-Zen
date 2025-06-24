@@ -3,7 +3,7 @@
   "homepage": "https://github.com/YashjitPal/Arc-2.0/",
   "author": "YashjitPal",
   "name": "Arc 2.0",
-  "description": "Arc which receives non-chromium updates every 1-2 weeks! (iykyk).",
+  "description": "Arc-like Zen Browser theme.",
   "version": "3.0",
   "style":{"chrome": "https://raw.githubusercontent.com/YashjitPal/Arc-2.0/main/userChrome.css",
     "content": "https://raw.githubusercontent.com/YashjitPal/Arc-2.0/main/userContent.css"},
