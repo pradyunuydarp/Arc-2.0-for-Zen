@@ -1,3 +1,16 @@
+/* URL bar cleanup - hide unnecessary elements 
+  #page-action-buttons, */
+  #identity-permission-box {
+    display: none !important;
+  } 
+  
+/* Center text in URL bar 
+#urlbar .urlbar-input,
+.urlbar-input-container {
+    text-align: center !important;
+    position: relative;
+}*/
+
 /* ------------------ URLBAR Styling ------------------ */
 #urlbar {
   /* your existing styles */
