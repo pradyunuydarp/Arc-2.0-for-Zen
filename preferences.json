@@ -106,8 +106,18 @@
     },
     {
         "type": "checkbox",
+        "property": "arc-style-window-buttons-disabled",
+        "label": "Disables stylings for window controls."
+    },
+    {
+        "type": "checkbox",
         "property": "arc-remove-workspace-indicator",
         "label": "Removes the workspace indicator."
+    },
+    {
+        "type": "checkbox",
+        "property": "arc.tab.default-audio-indicator",
+        "label": "Disable audio playing indicator in tab playing media."
     },
     {
         "type": "dropdown",
