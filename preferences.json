@@ -1,7 +1,7 @@
 [
     {
         "type": "checkbox",
-        "label": "Allows transparent browser windows.",
+        "label": "Enable transparent browser windows (browser restart maybe required to take effect).",
         "property": "browser.tabs.allow_transparent_browser"
     },
     {
@@ -16,7 +16,7 @@
     },
     {
         "type": "checkbox",
-        "label": "Shortens URL Bar to only show domain name.",
+        "label": "Shorten URL Bar to only show domain name.",
         "property": "browser.urlbar.trimURLs"
     },
     {
@@ -107,12 +107,12 @@
     {
         "type": "checkbox",
         "property": "arc-style-window-buttons-disabled",
-        "label": "Disables stylings for window controls."
+        "label": "Disable stylings for window controls."
     },
     {
         "type": "checkbox",
         "property": "arc-remove-workspace-indicator",
-        "label": "Removes the workspace indicator."
+        "label": "Remove the workspace indicator."
     },
     {
         "type": "checkbox",
@@ -123,7 +123,7 @@
         "type": "dropdown",
         "value": "number",
         "property": "arc-workspace-style",
-        "label": "Introduces MacOS dock like animations to workspace icons.",
+        "label": "Introduce MacOS dock like animations to workspace icons.",
         "default": 0,
         "options": [
             {
@@ -142,8 +142,13 @@
     },
     {
         "type": "checkbox",
+        "propert": "arc-pinned-extensions-mod",
+        "label": "Enable Pinned Extensions to look like Arc on sidebar."
+    }
+    {
+        "type": "checkbox",
         "property": "arc-disable-container-styling",
-        "label": "Disables container styling."
+        "label": "Disable container styling."
     },
     {
         "type": "checkbox",
