@@ -16,11 +16,11 @@
 ![image](https://github.com/user-attachments/assets/19211d6b-69e4-442c-99c4-655c48f5a8c5)
 
 ## What is Arc 2.0?
-Arc 2.0 Browser is a skin made for Zen Browser that adds lots of polish to the design by incorporating animations, blurs and more. It's pretty much the skin I personally use, but made public because people wanted the CSS. This skin is inspired by Arc browser and some other Zen skins (listed in credits)
+Arc 2.0 Browser is a skin made for Zen Browser that adds lots of polish to the design by incorporating animations, blurs and more. It's pretty much the skin I personally use, but made public because people wanted the CSS. This skin is inspired by Arc browser and some other Zen skins (listed in credits).
 
 Arc 2.0 is NOT a standalone browser. I don't even intend on making one.
 
-Arc 2.0 has been tested on 1.13.1b (Beta) on Windows. Note: It is not tested on Mac.
+Arc 2.0 has been tested on 1.13.2b (Beta) on Windows. Also, this theme is supposed to work perfectly with **Single Toolbar Mode**. Might encounter minor hiccups with other modes.
 
 ### Features are listed below!
 ### ℹ️ Note
@@ -126,6 +126,7 @@ Press `Ctrl + T` to open the floating URL bar and type "about:config" and press 
   **2: Capsule Background**
 * ### ```arc-disable-container-styling``` (_Boolean > True_) - **Disables Container styling.**
 * ### ```arc-compact-mode-no-sidebar-bg``` (_Boolean > True_) - **Removes Pseudo background on compact sidebar. Enable it if you don't use transparent websites.**
+* ### ```arc-tabs-no-shadow``` (_Boolean > True_) - **Removes shadow emitted from sidebar border (not in compact mode).**
 * ### ```browser.ml.linkPreview.enabled``` (_Boolean > True_) - **Press `Shift + Alt` while hovering mouse over a link to generate AI based summarized preview of the content inside.**
 * ### ```browser.ml.linkPreview.outputSentences``` (_Number_) - **Set the number of sentences you want AI based summarized preview of a website in.**
 * ### ```browser.tabs.fadeOutUnloadedTabs``` (_Boolean > True_) - **Fades unloaded tabs in background.**
