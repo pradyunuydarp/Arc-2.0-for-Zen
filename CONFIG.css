@@ -46,6 +46,8 @@ Restart browser after applying all configs.*/
 
 14. `arc-compact-mode-no-sidebar-bg - (Boolean > True) - Removes Pseudo background on compact sidebar. Enable it if you don't use transparent websites.
 
+15. `arc-tabs-no-shadow` - (Boolean > True) - Removes shadow emitted from sidebar (not in compact mode).
+
 15. `browser.ml.linkPreview.enabled` - (Boolean > True) - Press Shift + Alt while hovering mouse over a link to generate AI based 
                                                             summarized preview of the content inside.
 
