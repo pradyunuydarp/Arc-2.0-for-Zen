@@ -21,40 +21,44 @@ Restart browser after applying all configs.*/
 
 4. `browser.urlbar.trimURLs` - (boolean > true) - Shortens URL Bar to only show domain name.
 
-5. `arc-tab-loading-animation` - (Number) - Animation while the website loads.
+5. `browser.tabs.groups.enabled` - (boolean > true) - Enable Tab Groups.
+
+6. `arc-tab-loading-animation` - (Number) - Animation while the website loads.
         0: No animation; 1: Blur (Added by default, not needed to be added in about:config); 2: More Prominenet Blur;
         3: Less Prominent Blur; 4: Grayscale with No Blur; 5: Grayscale with Blur
 
-6. `arc-tab-switch-animation` - (Number) - Animation while switching between tabs.
+7. `arc-tab-switch-animation` - (Number) - Animation while switching between tabs.
     0: No animation; 1: Bounce (Added by default, not needed to be added in about:config); 2: More Bouncy;
     3: More Bounce than default but lighter than 2; 4: Smooth Crossfade; 5: Zoom out effect
 
-7. `arc-nogaps-compact-mod` - (Boolean > True) - Margin/Border-less only for compact mode.
+8. `arc-nogaps-compact-mod` - (Boolean > True) - Margin/Border-less only for compact mode.
 
-8. `arc-nogaps-mod` - (Boolean > True) - Margin/Border-less for all modes.
+9. `arc-nogaps-mod` - (Boolean > True) - Margin/Border-less for all modes.
 
-9. `arc-remove-workspace-indicator` - (Boolean > True) - Removes Workspace Indicator below Essentials.
+10. `arc-pinned-extensions-mod` - (Boolean > True) - Make pinned extensions look like Arc on sidebar.
 
-10. `arc-workspace-style` (Number) - Introduces MacOS dock like animations to Workspace Indicators at the bottom of sidebar.
+11. `arc-remove-workspace-indicator` - (Boolean > True) - Removes Workspace Indicator below Essentials.
+
+12. `arc-workspace-style` (Number) - Introduces MacOS dock like animations to Workspace Indicators at the bottom of sidebar.
     0: No Background; 1: No Animation; 2: Capsule Background
 
-11. `arc-disable-container-styling` - (Boolean > True) - Disables Container styling.
+13. `arc-disable-container-styling` - (Boolean > True) - Disables Container styling.
 
-12. `arc-compact-mode-no-sidebar-bg - (Boolean > True) - Removes Pseudo background on compact sidebar. Enable it if you don't use transparent websites.
+14. `arc-compact-mode-no-sidebar-bg - (Boolean > True) - Removes Pseudo background on compact sidebar. Enable it if you don't use transparent websites.
 
-13. `browser.ml.linkPreview.enabled` - (Boolean > True) - Press Shift + Alt while hovering mouse over a link to generate AI based 
+15. `browser.ml.linkPreview.enabled` - (Boolean > True) - Press Shift + Alt while hovering mouse over a link to generate AI based 
                                                             summarized preview of the content inside.
 
-14. `browser.ml.linkPreview.outputSentences` - (Number) - Set the number of sentences you want AI based summarized preview of a website in.
+16. `browser.ml.linkPreview.outputSentences` - (Number) - Set the number of sentences you want AI based summarized preview of a website in.
 
-15. `browser.tabs.fadeOutUnloadedTabs` - (Boolean > True) - Fades unloaded tabs in background.
+17. `browser.tabs.fadeOutUnloadedTabs` - (Boolean > True) - Fades unloaded tabs in background.
 
-16. `browser.low_commit_space_threshold_mb` - (Number) - Set the amount of memory left free in your system to activate tab unloading. 
+18. `browser.low_commit_space_threshold_mb` - (Number) - Set the amount of memory left free in your system to activate tab unloading. 
                                                             Recommended to set it 2/3rd of your total RAM.
 
-17. `browser.tabs.min_inactive_duration_before_unload` (Number) - Under above config, set the duration (in milliseconds) 
+19. `browser.tabs.min_inactive_duration_before_unload` (Number) - Under above config, set the duration (in milliseconds) 
                                                                     in which tab unloading should be executed.
-18. `dom.ipc.processPriorityManager.backgroundUsesEcoQoS` - (Boolean > True) - Makes browser run on performance efficiency mode.
+20. `dom.ipc.processPriorityManager.backgroundUsesEcoQoS` - (Boolean > True) - Makes browser run on performance efficiency mode.
 */
   /* DO NOT ADD OTHER CSS BELOW */
   /* More styles and options will come soon here! */
