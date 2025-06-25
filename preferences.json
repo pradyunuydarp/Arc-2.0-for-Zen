@@ -111,6 +111,11 @@
     },
     {
         "type": "checkbox",
+        "propert": "arc-pinned-extensions-mod",
+        "label": "Enable Pinned Extensions to look like Arc on sidebar."
+    },
+    {
+        "type": "checkbox",
         "property": "arc-remove-workspace-indicator",
         "label": "Remove the workspace indicator."
     },
@@ -140,11 +145,6 @@
             }
         ]
     },
-    {
-        "type": "checkbox",
-        "propert": "arc-pinned-extensions-mod",
-        "label": "Enable Pinned Extensions to look like Arc on sidebar."
-    }
     {
         "type": "checkbox",
         "property": "arc-disable-container-styling",
