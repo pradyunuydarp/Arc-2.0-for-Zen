@@ -34,11 +34,15 @@ Arc 2.0 has been tested on 1.13.2b (Beta) on Windows. Also, this theme is suppos
   **(NOTE: This installs Sine, which has tested, stable builds. For testing newly introduced features, switch to Cosine as shown below.)**
   ![image](https://github.com/user-attachments/assets/0d7255b4-0ae0-43e9-8989-7d7016936e83)
 
-* Paste this link - https://github.com/YashjitPal/Arc-2.0/ - to install theme as shown below. Refresh Settings page if mod is not shown listed.
-  ![image](https://github.com/user-attachments/assets/56a921ee-3cdd-487a-814a-17d69f92a8c5)
+* Click on the **Install** button under **Arc 2.0** to install theme as shown below. Refresh Settings page if installed theme is not shown under **Installed Mods**. <br>
+  ![image](https://github.com/user-attachments/assets/26ce358a-8b19-4745-9a7e-34ae65df8dde)
+
   
 * Configure Personalization prefs and configs using the Settings button located in details of theme installed as shown below.
-  ![image](https://github.com/user-attachments/assets/a063023e-c1d3-4618-bc84-4e17db06d4a3)
+  ![image](https://github.com/user-attachments/assets/c2e7eca7-f942-4cea-881c-eeacf23cc933)
+  ![image](https://github.com/user-attachments/assets/4263b760-b9a9-484f-9929-88ad52c42dcb)
+
+
   
 * To locate `Arc 2.0` folder for other configuration purpose with **Sine v2** or the theme itself, you need to go to go to `about:profiles`, scroll to the profile you have this theme in, then select `Open Folder` in the row of **Root Directory**; then go to `chrome > sine-mods > Arc-2.0`. Inside this folder all files and folders, including `CONFIG.css` are there for configurations deisred. <br>
   **[ALERT: Edit `CONFIG.css` on path mentioned above inside `Arc 2.0` folder to edit prefs like compact sidebar width.]**
