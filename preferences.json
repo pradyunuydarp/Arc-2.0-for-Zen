@@ -161,6 +161,11 @@
         "label": "Remove shadow emitted from sidebar (not in compact mode)."
     },
     {
+        "type": "checkbox",
+        "property": "arcline.url.bar",
+        "label": "[EXPERIMENTAL] Enable Arcline like URL Bar."
+    },
+    {
         "type": "separator"
     },
     {
