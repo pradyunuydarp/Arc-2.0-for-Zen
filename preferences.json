@@ -127,6 +127,24 @@
     {
         "type": "dropdown",
         "value": "number",
+        "property": "arcline.url.bar",
+        "label": "[EXPERIMENTAL] Enables Arcline-like URL Bar.",
+        "default": 0,
+        "options": [
+            {
+                "label": "Disable",
+                "value": 0
+            },
+            {
+                "label": "Enable",
+                "value": 1
+            }
+            
+        ]
+    },
+    {
+        "type": "dropdown",
+        "value": "number",
         "property": "arc-workspace-style",
         "label": "Introduce MacOS dock like animations to workspace icons.",
         "default": 0,
@@ -159,11 +177,6 @@
         "type": "checkbox",
         "property": "arc-tabs-no-shadow",
         "label": "Remove shadow emitted from sidebar (not in compact mode)."
-    },
-    {
-        "type": "checkbox",
-        "property": "arcline.url.bar",
-        "label": "[EXPERIMENTAL] Enable Arcline like URL Bar."
     },
     {
         "type": "separator"
