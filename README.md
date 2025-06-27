@@ -38,7 +38,7 @@ Arc 2.0 has been tested on 1.13.2b (Beta) on Windows. Also, this theme is suppos
   ![image](https://github.com/user-attachments/assets/26ce358a-8b19-4745-9a7e-34ae65df8dde)
 
   
-* Configure Personalization prefs and configs using the Settings button located in details of theme installed as shown below.
+* Configure Personalization prefs and configs using the Settings button located in details of theme installed as shown below. <br>
   ![image](https://github.com/user-attachments/assets/c2e7eca7-f942-4cea-881c-eeacf23cc933)
   ![image](https://github.com/user-attachments/assets/4263b760-b9a9-484f-9929-88ad52c42dcb)
 
