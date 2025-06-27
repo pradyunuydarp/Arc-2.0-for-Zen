@@ -131,6 +131,7 @@ Press `Ctrl + T` to open the floating URL bar and type "about:config" and press 
 * ### ```arc-disable-container-styling``` (_Boolean > True_) - **Disables Container styling.**
 * ### ```arc-compact-mode-no-sidebar-bg``` (_Boolean > True_) - **Removes Pseudo background on compact sidebar. Enable it if you don't use transparent websites.**
 * ### ```arc-tabs-no-shadow``` (_Boolean > True_) - **Removes shadow emitted from sidebar border (not in compact mode).**
+* ### [EXPERIMENTAL] ```arcline.url.bar``` (_Boolean > True_) - **Enables experimental Arcline-like floating URL Bar.**
 * ### ```browser.ml.linkPreview.enabled``` (_Boolean > True_) - **Press `Shift + Alt` while hovering mouse over a link to generate AI based summarized preview of the content inside.**
 * ### ```browser.ml.linkPreview.outputSentences``` (_Number_) - **Set the number of sentences you want AI based summarized preview of a website in.**
 * ### ```browser.tabs.fadeOutUnloadedTabs``` (_Boolean > True_) - **Fades unloaded tabs in background.**
