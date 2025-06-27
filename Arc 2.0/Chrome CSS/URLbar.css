@@ -4,13 +4,13 @@
     display: none !important;
   } 
   
-/* Center text in URL bar 
+/* Center text in URL bar */
 #urlbar .urlbar-input,
 .urlbar-input-container {
     text-align: center !important;
     position: relative;
-}*/
-
+    
+}
 /* ------------------ URLBAR Styling ------------------ */
 #urlbar {
   /* your existing styles */
@@ -26,13 +26,8 @@
     transition: box-shadow 0.3s ease;
 } */
 
-/* Center text in URL bar */
-#urlbar .urlbar-input,
-.urlbar-input-container {
-    text-align: center !important;
-    position: relative;
-}
 
+@media not -moz-pref("arcline.url.bar", 1) {
 :root[zen-single-toolbar="true"] #urlbar:not([open]) {
   height: 40px !important;
 }
@@ -90,7 +85,7 @@
         filter: none;
     }
 }
-
+}
 /* ------------------ URL Bar Open Animation ------------------ */
 #browser:has(#urlbar[open]) .browserStack {
     filter: blur(1rem) brightness(70%) saturate(180%) !important;
