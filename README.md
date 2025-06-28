@@ -79,9 +79,6 @@ Below is the tutorial video:
 https://github.com/user-attachments/assets/98e35d8f-5638-4791-8369-8ff964ad94df
 
 ## Mods required:
-* ### Zen Minimal Exit Menu
-
-  Link - https://zen-browser.app/mods/6cd4bca9-f17d-4461-b554-844d69a4887c/
 * ### Transparent Zen
 
   Link - https://zen-browser.app/mods/642854b5-88b4-4c40-b256-e035532109df/
