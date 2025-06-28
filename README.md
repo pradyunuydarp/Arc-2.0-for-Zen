@@ -85,7 +85,8 @@ https://github.com/user-attachments/assets/98e35d8f-5638-4791-8369-8ff964ad94df
 * ### Transparent Zen
 
   Link - https://zen-browser.app/mods/642854b5-88b4-4c40-b256-e035532109df/
-* ### Customize Font Size![image](https://github.com/user-attachments/assets/bb964ef8-af07-491b-99e8-8a4fa0c87789)
+* ### Customize Font Size
+  ![image](https://github.com/user-attachments/assets/bb964ef8-af07-491b-99e8-8a4fa0c87789)
 
   Link - https://zen-browser.app/mods/d23733fa-983e-4680-8869-bf5b292d4fe6/
   
