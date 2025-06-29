@@ -164,9 +164,25 @@
         ]
     },
     {
-        "type": "checkbox",
-        "property": "arc-disable-container-styling",
+        "type": "dropdown",
+        "value": "number",
+        "property": "arc-enable-container-styling",
         "label": "Disable container styling."
+        "default": 1,
+        "options":[
+            {
+                "label": "Disabled",
+                "value": 0
+            },
+            {
+                "label": "Style-1 [SuperPins compatible]",
+                "value": 1
+            },
+            {
+                "label": "Style-2",
+                "value": 2
+            }
+        ]
     },
     {
         "type": "checkbox",
