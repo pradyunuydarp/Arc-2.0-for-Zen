@@ -99,12 +99,12 @@ https://github.com/user-attachments/assets/98e35d8f-5638-4791-8369-8ff964ad94df
 
 ## Basic Configs required **[No need to go to `about:config` if Sine used for installation. All prefs are available in mod settings as shown in image in installation process above👆.**
 Press `Ctrl + T` to open the floating URL bar and type "about:config" and press `Enter`. `Advanced Preferences` page will open where you need to add configs mentioned below as per the ways directed in `()`. Restart browser after applying all configs.
-* ### ```browser.tabs.allow_transparent_browser``` (*boolean > true*)
-* ### ```browser.urlbar.openintab``` (*boolean > true*) - **When typed something by clicking on the URL bar, opens a new tab instead of modifying the current tab.**
-* ### ```zen.widget.windows.acrylic``` (*boolean > false*) - **For using Mica for Everyone in the toolbar.**
-* ### ```browser.urlbar.trimURLs``` (*boolean > true*) - **Shortens URL Bar to only show domain name.**
-* ### ```browser.tabs.groups.enabled``` (_boolean > true_) - **Enables Tab Groups.**
-* ### ```arc-pinned-extensions-mod``` (_boolean > true_)  - **Make pinned extensions looks like Arc, as shown in image above.**
+* ### ```browser.tabs.allow_transparent_browser``` (*Boolean > true*)
+* ### ```browser.urlbar.openintab``` (*Boolean > true*) - **When typed something by clicking on the URL bar, opens a new tab instead of modifying the current tab.**
+* ### ```zen.widget.windows.acrylic``` (*Boolean > false*) - **For using Mica for Everyone in the toolbar.**
+* ### ```browser.urlbar.trimURLs``` (*Boolean > true*) - **Shortens URL Bar to only show domain name.**
+* ### ```browser.tabs.groups.enabled``` (_Boolean > true_) - **Enables Tab Groups.**
+* ### ```arc-pinned-extensions-mod``` (_Boolean > true_)  - **Make pinned extensions looks like Arc, as shown in image above.**
 * ### ```arc-tab-loading-animation``` (_Number_) - **Animation while the website loads.**
   **0: No animation;**
   **1: Blur (*Added by default, not needed to be added in `about:config`*);**
@@ -119,23 +119,28 @@ Press `Ctrl + T` to open the floating URL bar and type "about:config" and press 
   **3: More Bounce than default but lighter than 2;**
   **4: Smooth Crossfade;**
   **5: Zoom out effect**
-* ### ```arc-nogaps-compact-mod``` (_Boolean > True_) - **Margin/Border-less for only compact mode.**
-* ### ```arc-nogaps-mod``` (_Boolean > True_) - **Margin/Border-less for all modes.**
-* ### ```arc-remove-workspace-indicator``` (_Boolean > True_) - **Removes Workspace Indicator below Essentials.**
+* ### ```arc-nogaps-compact-mod``` (_Boolean > true_) - **Margin/Border-less for only compact mode.**
+* ### ```arc-nogaps-mod``` (_Boolean > true_) - **Margin/Border-less for all modes.**
+* ### ```arc-remove-workspace-indicator``` (_Boolean > true_) - **Removes Workspace Indicator below Essentials.**
 * ### ```arc-workspace-style``` (_Number_) - **Introduces MacOS dock like animations to Workspace Indicators at the bottom of sidebar.**
   **0: No Background;**
   **1: No Animation;**
   **2: Capsule Background**
-* ### ```arc-disable-container-styling``` (_Boolean > True_) - **Disables Container styling.**
-* ### ```arc-compact-mode-no-sidebar-bg``` (_Boolean > True_) - **Removes Pseudo background on compact sidebar. Enable it if you don't use transparent websites.**
-* ### ```arc-tabs-no-shadow``` (_Boolean > True_) - **Removes shadow emitted from sidebar border (not in compact mode).**
-* ### [EXPERIMENTAL] ```arcline.url.bar``` (_Boolean > True_) - **Enables experimental Arcline-like floating URL Bar.**
-* ### ```browser.ml.linkPreview.enabled``` (_Boolean > True_) - **Press `Shift + Alt` while hovering mouse over a link to generate AI based summarized preview of the content inside.**
+* ### ```arc-enable-container-styling``` (_Number_) - **Edit Container styling.**
+  **0: Disable all container styling;**
+  **1: Style-1: Compatible with "Make Pins look similar to Essentials" feature of SuperPins mod;**
+  **2: Style-2: Not compatible with "Make Pins look similar to Essentials" feature of SuperPins mod**
+* ### ```arc-compact-mode-no-sidebar-bg``` (_Boolean > true_) - **Removes Pseudo background on compact sidebar. Enable it if you don't use transparent websites.**
+* ### ```arc-tabs-no-shadow``` (_Boolean > true_) - **Removes shadow emitted from sidebar border (not in compact mode).**
+* ### [EXPERIMENTAL] ```arcline.url.bar``` (_Number_) - **Enables experimental Arcline-like floating URL Bar.**
+  **0: Default URL Bar.**
+  **1: Enable Arcline-like URL Bar.**
+* ### ```browser.ml.linkPreview.enabled``` (_Boolean > true_) - **Press `Shift + Alt` while hovering mouse over a link to generate AI based summarized preview of the content inside.**
 * ### ```browser.ml.linkPreview.outputSentences``` (_Number_) - **Set the number of sentences you want AI based summarized preview of a website in.**
-* ### ```browser.tabs.fadeOutUnloadedTabs``` (_Boolean > True_) - **Fades unloaded tabs in background.**
+* ### ```browser.tabs.fadeOutUnloadedTabs``` (_Boolean > true_) - **Fades unloaded tabs in background.**
 * ### ```browser.low_commit_space_threshold_mb``` (_Number_) - **Set the amount of memory left free in your system to activate tab unloading. Recommended to set it 2/3rd of your total RAM.**
 * ### ```browser.tabs.min_inactive_duration_before_unload``` (_Number_) - **Under above config, set the duration (in milliseconds) in which tab unloading should be executed.**
-* ### ```dom.ipc.processPriorityManager.backgroundUsesEcoQoS``` (_Boolean > True_) - **Makes browser run on performance efficiency mode.**
+* ### ```dom.ipc.processPriorityManager.backgroundUsesEcoQoS``` (_Boolean > true_) - **Makes browser run on performance efficiency mode.**
 
 ## Features:
 * ### Better color gradients for essentials:
