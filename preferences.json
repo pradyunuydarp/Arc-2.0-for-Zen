@@ -167,7 +167,7 @@
         "type": "dropdown",
         "value": "number",
         "property": "arc-enable-container-styling",
-        "label": "Disable container styling.",
+        "label": "Edit container styling.",
         "default": 1,
         "options":[
             {
