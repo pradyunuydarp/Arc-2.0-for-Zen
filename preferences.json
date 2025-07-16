@@ -115,6 +115,23 @@
         "label": "Enable Pinned Extensions to look like Arc on sidebar."
     },
     {
+        "type": "dropdown",
+        "value": "number",
+        "property": "arc.tab-groups-disable",
+        "label": "Arc Tab Folders (Disable this for applying Advanced Tab Groups mod).",
+        "default": 0,
+        "options": [
+            {
+                "label": "Enabled",
+                "value": 0
+            },
+            {
+                "label": "Disabled",
+                "value": 1
+            }
+        ]
+    },
+    {
         "type": "checkbox",
         "property": "arc-remove-workspace-indicator",
         "label": "Remove the workspace indicator."
