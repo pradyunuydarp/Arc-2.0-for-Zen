@@ -94,7 +94,7 @@ https://github.com/user-attachments/assets/98e35d8f-5638-4791-8369-8ff964ad94df
   Link - https://addons.mozilla.org/en-US/firefox/addon/zen-internet/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
 * ### Copy Frame or Page URL
  
-  Link - https://addons.mozilla.org/en-US/firefox/addon/copy-frame-or-page-url/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
+  Link - https://addons.mozilla.org/en-US/firefox/addon/arc-like-copy-link/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
 
 
 ## Basic Configs required **[No need to go to `about:config` if Sine used for installation. All prefs are available in mod settings as shown in image in installation process above👆.**
