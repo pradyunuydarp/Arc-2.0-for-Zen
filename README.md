@@ -234,6 +234,7 @@ Click on ```Add new rule``` and type ```zen```. Under ```Style```, set backgroun
 * ### https://github.com/ferrocyante/vyang
 * ### https://github.com/JustAdumbPrsn/Nebula-A-Minimal-Theme-for-Zen-Browser
 * ### https://github.com/sameerasw/ZenZero
+* ### https://github.com/rrthrr
 
 ## Re-distribution info:
 You are totally free to make forks of this or put this in your chrome file and create or modify it according to yourself. It's suggested to credit me if you use my theme. Thank you for using Arc 2.0.
