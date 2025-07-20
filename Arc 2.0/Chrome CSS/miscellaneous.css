@@ -1,6 +1,19 @@
 /*Credit: JustAdumbPerson*/
 @-moz-document url-prefix("chrome:") {
   /* ------------------------- GENERAL ZEN UI ------------------------- */
+
+  /*Web View border extra rounded*/
+  .browserContainer {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    transparent 100%
+  );
+}
+stack > browser {
+  border-radius: 10px !important;
+}
+  
   /* main ui tint */
   #zen-main-app-wrapper {
     background: var(--nebula-ui-tint) !important;
