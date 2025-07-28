@@ -1,8 +1,13 @@
-/* URL bar cleanup - hide unnecessary elements 
-  #page-action-buttons, */
-  #identity-permission-box {
-    display: none !important;
-  } 
+/* Hides the container info in url-bar */
+#urlbar #userContext-label {
+  display: none !important;
+}
+#urlbar #userContext-indicator {
+  display: none !important;
+}
+#urlbar #userContext-icons {
+  display: none !important;
+}
   
 /* Center text in URL bar */
 #urlbar .urlbar-input,
