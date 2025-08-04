@@ -693,7 +693,7 @@ browser, .browserSidebarContainer.deck-selected {
 
  .verifiedDomain {
         image {
-          list-style-image: url("https://raw.githubusercontent.com/neurokitti/Arc_Zen_Theme/6da4c1ca78cc521bea1026ff024fcc8528ae6a49/icons/arc-logo.svg") !important;
+/*           list-style-image: url("https://raw.githubusercontent.com/neurokitti/Arc_Zen_Theme/6da4c1ca78cc521bea1026ff024fcc8528ae6a49/icons/arc-logo.svg") !important; */
     
         }
       }
@@ -759,7 +759,7 @@ browser, .browserSidebarContainer.deck-selected {
     margin-bottom: 3px !important;
     margin-left: 5px !important;
         image {
-          list-style-image: url("https://raw.githubusercontent.com/neurokitti/Arc_Zen_Theme/6da4c1ca78cc521bea1026ff024fcc8528ae6a49/icons/arc-logo.svg") !important;
+/*           list-style-image: url("https://raw.githubusercontent.com/neurokitti/Arc_Zen_Theme/6da4c1ca78cc521bea1026ff024fcc8528ae6a49/icons/arc-logo.svg") !important; */
     
         }
       }
