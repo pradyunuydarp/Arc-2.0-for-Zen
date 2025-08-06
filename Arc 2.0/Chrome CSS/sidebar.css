@@ -488,7 +488,7 @@ More actions
       right: 30px !important;
       height: 42px !important;
       z-index: 1000 !important;
-      min-width: 90% !important;
+      min-width: 66% !important;
       display: flex !important;
       align-items: center !important;
       gap: 6px !important;
@@ -518,7 +518,7 @@ More actions
   
   :has(.browserSidebarContainer.deck-selected > .browserContainer > findbar:not([hidden="true"])) #zen-tabbox-wrapper::before {
       opacity: 1 !important;
-      width: 90.05%;
+      width: 66%;
   }
             
   findbar:not([hidden="true"]) {
@@ -620,3 +620,4 @@ More actions
       background-color: rgba(255, 255, 255, 0.1) !important;
   }
 }
+
