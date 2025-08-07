@@ -14,15 +14,15 @@ stack > browser {
   border-radius: 10px !important;
 }
   
-  /* main ui tint */
+  /* main ui tint 
   #zen-main-app-wrapper {
     background: var(--nebula-ui-tint) !important;
-  }
+  } */
   
-  /* website tint */
+  /* website tint 
   browser[transparent='true'] {
     background: var(--nebula-website-tint) !important;
-  }
+  } */
   
   /* Hide identity label for Bonjourr */
   #identity-icon-label[value="Extension (Bonjourr · Minimalist Startpage)"] {
@@ -34,11 +34,12 @@ stack > browser {
     --zen-themed-toolbar-bg-transparent: transparent !important; /* fix for transparency */
   }
   
-  /* Required for blur rendering */
+  /* Config for blur rendering */
+  @media (-moz-pref("arc.force-blur-rendering", true)) {
   browser {
       clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
-  
+  }
   /* --------------------- TABS: NO SHADOW --------------------- */
   
   hbox.browserSidebarContainer,
