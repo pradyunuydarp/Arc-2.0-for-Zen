@@ -67,7 +67,7 @@
   50% { box-shadow: 0 0 0 4px rgba(68, 138, 255, 0.1); }
 }
 
-@media (-moz-pref("ZenMotion-Loadingtabanimation", false)) {
+@media (-moz-pref("arc.loading-tab-animation", false)) {
 
   /* Loading tab favicon animation */
   .tabbrowser-tab[busy] .tab-icon-image {
