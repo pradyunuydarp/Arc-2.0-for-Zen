@@ -246,5 +246,16 @@
         "type": "checkbox",
         "property": "dom.ipc.processPriorityManager.backgroundUsesEcoQoS",
         "label": "Makes browser run on performance efficient mode."
+    },
+    {
+        "type": "separator"
+    },
+    {
+        "type": "string",
+        "property": "arc-sidebar.compact-mode-sidebar-size",
+        "default": "25em",
+        "placeholder": "25em",
+        "label": "Custom sidebar size for compact mode (default: 25em)."
     }
 ]
+
