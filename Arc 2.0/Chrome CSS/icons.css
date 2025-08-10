@@ -18,7 +18,14 @@
 
 @font-face {
     font-family: "Nunito";
-    src: url("./fonts/Nunito-VariableFont_wght.woff2") format("woff2");
+    src: url("./fonts/Nunito-VariableFont_wght.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Nunito-Italic";
+    src: url("./fonts/Nunito-VariableFont_wght.ttf") format("truetype");
     font-weight: 600;
     font-style: normal;
 }
@@ -244,5 +251,6 @@ html[zen-single-toolbar="true"] {
   background-color: rgba(200, 200, 200, 0.2);
   transform: scale(1);
 }
+
 
 
