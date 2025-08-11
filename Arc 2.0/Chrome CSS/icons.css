@@ -1,13 +1,13 @@
 /* Default Arc font */
 @font-face {
-  font-family: "SF-Pro";
-  src: url("fonts/SF-Pro.ttf");
+  font-family: "SF-Symbols";
+  src: url("https://github.com/YashjitPal/Arc-2.0/raw/main/Arc%202.0/Chrome%20CSS/fonts/SF-Symbols.ttf");
 }
 
 /* Our symbols font */
 @font-face {
-  font-family: "SF-Symbols";
-  src: url("fonts/SF-Symbols.ttf");
+  font-family: "SF-Pro";
+  src: url("https://github.com/YashjitPal/Arc-2.0/raw/main/Arc%202.0/Chrome%20CSS/fonts/SF-Pro.ttf");
 }
 
 /* Apple's Emoji Font */
@@ -18,20 +18,28 @@
 
 @font-face {
     font-family: "Nunito";
-    src: url("./fonts/Nunito-VariableFont_wght.ttf") format("truetype");
+    src: url("https://github.com/YashjitPal/Arc-2.0/raw/refs/heads/main/Arc%202.0/Chrome%20CSS/fonts/Nunito-VariableFont_wght.ttf");
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Nunito-Italic";
-    src: url("./fonts/Nunito-Italic-VariableFont_wght.ttf") format("truetype");
+    src: url("https://github.com/YashjitPal/Arc-2.0/raw/refs/heads/main/Arc%202.0/Chrome%20CSS/fonts/Nunito-Italic-VariableFont_wght.ttf") format("truetype");
     font-weight: 600;
     font-style: normal;
 }
-
+:root:has(#theme-Arc-2\.0[arc-font="Nunito"]) {
+  --arc-font: "Nunito";
+}
+:root:has(#theme-Arc-2\.0[arc-font="SF-Symbols"]) {
+  --arc-font: "SF-Symbols";
+}
+:root:has(#theme-Arc-2\.0[arc-font="SF-Pro"]) {
+  --arc-font: "SF-Pro";
+}
 * {
-    font-family: "Nunito", sans-serif; 
+  font-family: var(--arc-font), sans-serif; 
 }
 
 #zen-current-workspace-indicator #zen-current-workspace-indicator-icon {
@@ -251,6 +259,7 @@ html[zen-single-toolbar="true"] {
   background-color: rgba(200, 200, 200, 0.2);
   transform: scale(1);
 }
+
 
 
 
