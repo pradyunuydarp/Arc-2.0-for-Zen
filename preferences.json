@@ -256,7 +256,28 @@
         "default": "25em",
         "placeholder": "25em",
         "label": "Custom sidebar size for compact mode (default: 25em)."
+    },
+    {
+        "type": "dropdown",
+        "property": "arc-font",
+        "label": "Select the font for Arc.",
+        "defaultValue": "Nunito",
+        "options": [
+            {
+                "label": "Nunito (default)",
+                "value": "Nunito"
+            },
+            {
+                "label": "SF Pro",
+                "value": "SF-Pro"
+            },
+            {   
+                "label": "SF Symbols",
+                "value": "SF-Symbols"
+            }
+        ]
     }
 ]
+
 
 
