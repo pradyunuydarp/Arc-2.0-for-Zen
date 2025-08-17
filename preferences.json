@@ -6,6 +6,11 @@
     },
     {
         "type": "checkbox",
+        "label": "Enable transparent background for Glance/Peek mode",
+        "property": "arc-transparent-glance"
+    },
+    {
+        "type": "checkbox",
         "label": "When typed something by clicking on the URL bar, opens a new tab instead of modifying the current tab.",
         "property": "browser.urlbar.openintab"
     },
@@ -112,7 +117,12 @@
     {
         "type": "checkbox",
         "property": "arc-pinned-extensions-mod",
-        "label": "Enable Pinned Extensions to look like Arc on sidebar."
+        "label": "Enable Pinned Extensions to look like Arc on sidebar (Disable is you have no pinned extensions)."
+    },
+    {
+        "type": "checkbox",
+        "property": "arc-pinned-extensions-badge",
+        "label": "Enable badge/text on pinned extensions for related info, if any."
     },
     {
         "type": "dropdown",
@@ -282,6 +292,7 @@
         ]
     }
 ]
+
 
 
 
