@@ -11,6 +11,12 @@
     },
     {
         "type": "checkbox",
+        "label": "Enable Arc Menu Icon",
+        "property": "arc-menu-icon",
+        "default": true
+    },
+    {
+        "type": "checkbox",
         "label": "When typed something by clicking on the URL bar, opens a new tab instead of modifying the current tab.",
         "property": "browser.urlbar.openintab"
     },
@@ -292,6 +298,7 @@
         ]
     }
 ]
+
 
 
 
