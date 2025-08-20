@@ -1,10 +1,5 @@
 @-moz-document url-prefix("chrome:") {
   /* ------------------------- GENERAL ZEN UI ------------------------- */
-  /* Just this code below is a fix to the video corner */
-/*   #zen-tabbox-wrapper .browserSidebarContainer,#zen-tabbox-wrapper browser {
-    margin: 0 !important;
-    border-radius: 0 !important;
-  } */
   /*Web View border extra rounded*/
   .browserContainer {
   background: linear-gradient(
@@ -13,9 +8,6 @@
     transparent 100%
   );
 }
-/* stack > browser {
-  border-radius: 10px !important;
-} */
   
   /* main ui tint */
   #zen-main-app-wrapper {
