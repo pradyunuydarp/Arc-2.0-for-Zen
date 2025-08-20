@@ -75,48 +75,51 @@ html,
   }
   
   /* Pseudo background overlay */
-  body:has([zen-compact-mode="true"]) #browser::after {
-    content: "" !important;
-    position: absolute !important;
-    z-index: -100000;
-    border-radius: 11px !important;
-    background-color: light-dark(rgba(200, 200, 200, 1), rgba(40, 40, 40, 1)) !important;
-    opacity: 0 !important;
-    transition: opacity 0.2s ease;
-  }
-  
-  /* Right-side pseudo background alignment */
-  :root[zen-right-side="true"] body:has([zen-compact-mode="true"]) #browser::after {
-    left: auto !important;
-    right: calc(var(--zen-element-separation) / 0.65) !important;
-  }
-  /* Sidebar on right */
-  :root[zen-right-side="true"] body:has([zen-compact-mode="true"]) #titlebar {
-    left: auto !important;
-    right: calc(var(--zen-element-separation) / 0.9) !important;
-  }
-  
-  /* Show pseudo background when active/hovered */
-  body:has([zen-compact-mode="true"] [zen-user-show=""],
-  [zen-compact-mode="true"] #navigator-toolbox[zen-has-hover="true"]) #browser::after {
-    opacity: 1 !important;
-  }
-  :root[zen-right-side="true"] body:has([zen-compact-mode="true"] [zen-user-show=""],
-  [zen-compact-mode="true"] #navigator-toolbox[zen-has-hover="true"]) #browser::after {
-    opacity: 1 !important;
+  @media not (-moz-pref("arc-compact-mode-no-sidebar-bg")) {
+
+    body:has([zen-compact-mode="true"]) #browser::after {
+      content: "" !important;
+      position: absolute !important;
+      z-index: -100000;
+      border-radius: 11px !important;
+      background-color: light-dark(rgba(200, 200, 200, 1), rgba(40, 40, 40, 1)) !important;
+      opacity: 0 !important;
+      transition: opacity 0.2s ease;
+    }
+    
+    /* Right-side pseudo background alignment */
+    :root[zen-right-side="true"] body:has([zen-compact-mode="true"]) #browser::after {
+      left: auto !important;
+      right: calc(var(--zen-element-separation) / 0.65) !important;
+    }
+    /* Sidebar on right */
+    :root[zen-right-side="true"] body:has([zen-compact-mode="true"]) #titlebar {
+      left: auto !important;
+      right: calc(var(--zen-element-separation) / 0.9) !important;
+    }
+    
+    /* Show pseudo background when active/hovered */
+    body:has([zen-compact-mode="true"] [zen-user-show=""],
+    [zen-compact-mode="true"] #navigator-toolbox[zen-has-hover="true"]) #browser::after {
+      opacity: 1 !important;
+    }
+    :root[zen-right-side="true"] body:has([zen-compact-mode="true"] [zen-user-show=""],
+    [zen-compact-mode="true"] #navigator-toolbox[zen-has-hover="true"]) #browser::after {
+      opacity: 1 !important;
+    }
   }
   
   /* config to remove pseudo bg */
-  @media (-moz-pref("nebula-compact-mode-no-sidebar-bg")) {
+/*   @media (-moz-pref("nebula-compact-mode-no-sidebar-bg")) {
     body:has([zen-compact-mode="true"]) #browser::after {
-      content: none !important; /* removes the pseudo element */
+      content: none !important; removes the pseudo element 
       background-color: transparent !important;
       backdrop-filter: none !important;
       opacity: 0 !important;
       pointer-events: none !important;
       transition: none !important;
     }
-  }
+  } */
   
   /* -------------------- SINGLE TOOLBAR -------------------- */
   
@@ -620,4 +623,5 @@ More actions
       background-color: rgba(255, 255, 255, 0.1) !important;
   }
 }
+
 
