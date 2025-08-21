@@ -148,6 +148,9 @@
         ]
     },
     {
+        "type":"separator"
+    },
+    {
         "type": "checkbox",
         "property": "arc-remove-workspace-indicator",
         "label": "Remove the workspace indicator."
@@ -162,6 +165,12 @@
         "type": "checkbox",
         "property": "arc.tab.default-audio-indicator",
         "label": "Disable audio playing indicator in tab playing media."
+    },
+    {
+        "type":"checkbox",
+        "property": "arc.media-controls-toolbar-bottom",
+        "label": "Enable Media Controls Toolbar to go bottom.",
+        "default": false
     },
     {
         "type": "dropdown",
@@ -304,6 +313,7 @@
         ]
     }
 ]
+
 
 
 
