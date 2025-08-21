@@ -188,10 +188,20 @@ tab[label$='.pdf'] img.tab-icon-image {
   /*******************************************************************************
    * MEDIA PLAYER CUSTOMIZATION
    ******************************************************************************/
-  
+  @media (-moz-pref("arc.media-controls-toolbar-bottom")){
+    #zen-media-controls-toolbar{
+      order:1 !important;
+    }
+    #zen-media-controls-toolbar:hover + #zen-sidebar-foot-buttons {
+      transform: translateY(-35px);
+      transition: transform 0.2s ease-in-out !important;
+    }
+  }
+
+
   /* Media player expanded layout */
   #zen-media-controls-toolbar {
-      & .show-on-hover {
+    & .show-on-hover {
       max-height: unset !important;
       opacity: 1 !important;
       transform: translateY(0) !important;
@@ -205,12 +215,12 @@ tab[label$='.pdf'] img.tab-icon-image {
   /* Media buttons hover effect */
   #zen-media-buttons-hbox > toolbarbutton {
     opacity: 0 !important;
-    transition: all 0.3s ease-in-out !important;
-  
+    transition: opacity 0.4s ease-in-out !important;
     &:hover {
       opacity: 1 !important;
     }
   }
+}
   
   /* Media controls hover expansion */
   #zen-media-controls-toolbar {
