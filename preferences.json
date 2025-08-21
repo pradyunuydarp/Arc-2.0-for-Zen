@@ -154,6 +154,12 @@
     },
     {
         "type": "checkbox",
+        "property": "arc-urlbar-fade-in",
+        "label": "Remove fade-in which is below the urlbar",
+        "default": false
+    },
+    {
+        "type": "checkbox",
         "property": "arc.tab.default-audio-indicator",
         "label": "Disable audio playing indicator in tab playing media."
     },
@@ -298,6 +304,7 @@
         ]
     }
 ]
+
 
 
 
