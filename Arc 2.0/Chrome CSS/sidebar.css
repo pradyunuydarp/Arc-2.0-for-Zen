@@ -107,6 +107,14 @@ html,
     [zen-compact-mode="true"] #navigator-toolbox[zen-has-hover="true"]) #browser::after {
       opacity: 1 !important;
     }
+    body:has([zen-compact-mode="true"] [zen-user-show=""],
+    [zen-compact-mode="true"] #navigator-toolbox[has-popup-menu=""]) #browser::after {
+      opacity: 1 !important;
+    }
+    :root[zen-right-side="true"] body:has([zen-compact-mode="true"] [zen-user-show=""],
+    [zen-compact-mode="true"] #navigator-toolbox[has-popup-menu=""]) #browser::after {
+      opacity: 1 !important;
+    }
   }
   
   /* config to remove pseudo bg */
@@ -623,5 +631,6 @@ More actions
       background-color: rgba(255, 255, 255, 0.1) !important;
   }
 }
+
 
 
