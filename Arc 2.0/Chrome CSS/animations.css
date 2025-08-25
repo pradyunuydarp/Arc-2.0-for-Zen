@@ -260,47 +260,6 @@ menuitem:nth-child(n+6) { animation-delay: 0.12s; }
   }
 }
 
-menuitem:hover {
-  transform: translateX(2px);
-  background-color: rgba(70, 140, 255, 0.08) !important;
-  position: relative;
-}
-
-/* Menu hover glow effect 
-menuitem:hover::before {
-  content: "";
-  position: absolute;
-  left: 0; top: 0; right: 0; bottom: 0;
-  background: linear-gradient(90deg, transparent,  transparent, var(--zen-primary-color));
-  animation: menuGlow 0.1s ease-out;
-}
-@keyframes menuGlow {
-  0% { transform: translateX(-100%); }
-  100% { transform: translateX(100%); }
-} */
-
-/* === PROGRESS BAR ANIMATIONS === */
-/* Animated progress bar */
-#nav-bar-customization-target::before {
-  content: "";
-  position: absolute;
-  top: 0; left: 0;
-  height: 2px;
-  background: linear-gradient(90deg, #448aff, #64b5f6, #81c784);
-  background-size: 200% 100%;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-#main-window[loading="true"] #nav-bar-customization-target::before {
-  opacity: 1;
-  animation: progressFlow 2s linear infinite;
-}
-@keyframes progressFlow {
-  0% { width: 0%; background-position: 0% 50%; }
-  50% { width: 70%; background-position: 100% 50%; }
-  100% { width: 100%; background-position: 200% 50%; opacity: 0; }
-}
-
 /* === NOTIFICATION ANIMATIONS === */
 /* Download notification */
 #downloads-notification-anchor {
@@ -317,27 +276,10 @@ menuitem:hover::before {
   100% { transform: scale(1) rotate(0deg); }
 }
 
-/* === SIDEBAR ANIMATIONS === */
-/* Sidebar slide with backdrop blur 
-#sidebar-box {
-  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),
-              opacity 0.3s ease;
-} */
-
 #sidebar-box[hidden="true"] {
   transform: translateX(-100%);
   opacity: 0;
 }
-
-/* WINDOW ANIMATIONS */
-/* Fullscreen transition 
-#main-window[inFullscreen] {
-  animation: fullscreenZoom 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-@keyframes fullscreenZoom {
-  0% { transform: scale(0.95); }
-  100% { transform: scale(1); }
-} */
 
 /* === PERFORMANCE OPTIMIZATIONS === */
 @media (prefers-reduced-motion: reduce) {
@@ -383,14 +325,14 @@ menupopup *, menuitem *,
     /* Hardware acceleration */
     transform: translateZ(0);
     will-change: transform, opacity;
-    /* Smooth appearance 
+    /* Smooth appearance */
     transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
-                opacity 0.2s ease-out; */
-    /* Glass effect 
+                opacity 0.2s ease-out; 
+    /* Glass effect */
     backdrop-filter: blur(20px) saturate(180%);
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 12px; */
+    border-radius: 12px; 
     /* Optimize rendering */
     contain: layout style paint;
 }
