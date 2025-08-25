@@ -13,12 +13,7 @@
   #zen-main-app-wrapper {
     background: var(--nebula-ui-tint) !important;
   } 
-  
-  /* website tint 
-  browser[transparent='true'] {
-    background: var(--nebula-website-tint) !important;
-  } */
-  
+
   /* Hide identity label for Bonjourr */
   #identity-icon-label[value="Extension (Bonjourr · Minimalist Startpage)"] {
     display: none !important;
