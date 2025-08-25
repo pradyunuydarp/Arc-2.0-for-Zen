@@ -117,18 +117,6 @@ html,
     }
   }
   
-  /* config to remove pseudo bg */
-/*   @media (-moz-pref("nebula-compact-mode-no-sidebar-bg")) {
-    body:has([zen-compact-mode="true"]) #browser::after {
-      content: none !important; removes the pseudo element 
-      background-color: transparent !important;
-      backdrop-filter: none !important;
-      opacity: 0 !important;
-      pointer-events: none !important;
-      transition: none !important;
-    }
-  } */
-  
   /* -------------------- SINGLE TOOLBAR -------------------- */
   
   @media (-moz-pref("zen.view.compact.hide-tabbar")) {
@@ -336,18 +324,7 @@ html,
   scrollbox {
     scrollbar-width: none !important;
   }
-  
-  /*
-  #zen-tabs-wrapper {
-      mask-image: linear-gradient(to bottom, black 90%, rgba(0, 0, 0, 0.4) 97%, transparent 100%) !important;
-      -webkit-mask-image: linear-gradient(to bottom, black 90%, rgba(0, 0, 0, 0.7) 97%, transparent 100%) !important;
-      scrollbar-width: none !important;
-      -ms-overflow-style: none !important;
-      overflow-y: auto !important;
-      transition: mask-image 0.3s ease, -webkit-mask-image 0.3s ease;
-  }
-  */
-  
+
   /* Hide the overflow background gradient */
   .workspace-arrowscrollbox[overflowing] {
       --zen-scrollbar-overflow-background: transparent !important;
@@ -631,6 +608,7 @@ More actions
       background-color: rgba(255, 255, 255, 0.1) !important;
   }
 }
+
 
 
 
