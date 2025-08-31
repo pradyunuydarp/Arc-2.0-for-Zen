@@ -29,17 +29,25 @@
     font-weight: 600;
     font-style: normal;
 }
-:root:has(#theme-Arc-2\.0[arc-font="Nunito"]) {
-  --arc-font: "Nunito";
+@media (-moz-pref("arc-font", "Nunito")) {
+  :root{
+    --arc-font: "Nunito";
+  }
 }
-:root:has(#theme-Arc-2\.0[arc-font="Nunito-Italic"]) {
-  --arc-font: "Nunito-Italic";
+@media (-moz-pref("arc-font", "Nunito-Italic")) {
+  :root{
+    --arc-font: "Nunito-Italic";
+  }
 }
-:root:has(#theme-Arc-2\.0[arc-font="SF-Symbols"]) {
-  --arc-font: "SF-Symbols";
+@media (-moz-pref("arc-font", "SF-Symbols")) {
+  :root{
+    --arc-font: "SF-Symbols";
+  }
 }
-:root:has(#theme-Arc-2\.0[arc-font="SF-Pro"]) {
-  --arc-font: "SF-Pro";
+@media (-moz-pref("arc-font", "SF-Pro")) {
+  :root{
+    --arc-font: "SF-Pro";
+  }
 }
 * {
   font-family: var(--arc-font), sans-serif; 
@@ -262,6 +270,7 @@ html[zen-single-toolbar="true"] {
   background-color: rgba(200, 200, 200, 0.2);
   transform: scale(1);
 }
+
 
 
 
