@@ -123,7 +123,7 @@
     {
         "type": "checkbox",
         "property": "arc-pinned-extensions-mod",
-        "label": "Enable Pinned Extensions to look like Arc on sidebar (Disable is you have no pinned extensions)."
+        "label": "Enable Pinned Extensions to look like Arc on sidebar (Disable if you have no pinned extensions)."
     },
     {
         "type": "checkbox",
@@ -313,6 +313,7 @@
         ]
     }
 ]
+
 
 
 
