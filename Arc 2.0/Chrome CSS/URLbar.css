@@ -158,15 +158,16 @@
     }
 }
 }
-/* ------------------ URL Bar Open Animation ------------------ */
+/* ------------------ URL Bar BG ------------------ */
+
+.browserStack {
+    transition: all 0.3s cubic-bezier(0.175, 0.385, 0.12, 1) !important;
+}
+
 #browser:has(#urlbar[open]) .browserStack {
-    filter: blur(1rem) brightness(70%) saturate(180%) !important;
-    opacity: 1 !important;
     scale: 1.075 !important;
-    transition:
-        filter 0.25s cubic-bezier(0.175, 0.385, 0.12, 1),
-        opacity 0.25s cubic-bezier(0.175, 0.385, 0.12, 1),
-        scale 0.25s cubic-bezier(0.175, 0.385, 0.12, 1) !important;
+    filter: brightness(50%) blur(25px) saturate(125%) !important;
+    opacity: 1 !important;
 }
 
 .browserStack:not(:has(#urlbar[open])) {
