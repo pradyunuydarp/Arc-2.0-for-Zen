@@ -240,4 +240,4 @@ Click on ```Add new rule``` and type ```zen```. Under ```Style```, set backgroun
 You are totally free to make forks of this or put this in your chrome file and create or modify it according to yourself. It's suggested to credit me if you use my theme. Thank you for using Arc 2.0.
 
 ## Please note that!
-Ping `Equinox` and `perplectly fine` on Discord for support with issues.
+Ping `Equinox`, `perplectly fine` and `CompTechGuy` on Discord for support with issues.
