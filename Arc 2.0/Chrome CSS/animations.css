@@ -337,9 +337,6 @@ menupopup *, menuitem *,
     contain: layout style paint;
 }
 
-
-/*Credit: JustAdumbPrson*/
-
 @-moz-document url-prefix("chrome:") {
   /* ------------------------ Glance Animation ----------------------- */
   .browserSidebarContainer.zen-glance-background.deck-selected {
@@ -652,6 +649,195 @@ menupopup *, menuitem *,
     }
   }
 
+/*Menu Animations*/
+menuitem {
+  transition: all 0.25s ease-in-out !important;
+}
+
+[hasbeenopened="true"] {
+  menuitem,
+  menu,
+  toolbarbutton.subviewbutton{
+    .menu-text, .toolbarbutton-text {
+      font-size: 0.93em !important;
+      padding: 2px 5px !important;
+      opacity: 1 !important;
+      transition: all 0.25s ease-in-out !important;
+    }
+
+    &:hover > .menu-text, &:hover > .toolbarbutton-text {
+      padding-left: 8px !important;
+      padding-right: 2px !important;
+    }
+  }
+
+  &:has(menu[open="true"]) {
+    & > menuitem,
+    menu:not([open="true"]) {
+      opacity: 0.3 !important;
+    }
+  }
+}
+
+/*Transparent Glance*/
+@media (-moz-pref("arc-transparent-glance")) {
+  
+  /* Transparent glance styling */
+  .zen-glance-background > vbox {
+    mask-image: linear-gradient(
+      to right,
+      black 0%,
+      black 4%,
+      transparent 7%,
+      transparent 93.5%,
+      black 96%,
+      black 100%
+    );
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+  }
+  
+  .zen-glance-overlay > vbox {
+    background-color: light-dark(#fff7, #0007) !important;
+    margin-top: 0.5% !important;
+    margin-bottom: 0.5% !important;
+    height: 98% !important;
+    border-radius: 1.5em !important;
+  }
+}
+  
+ /*Media Player*/
+@-moz-document url-prefix("chrome:") {
+ 
+  @media (-moz-pref("arc.media-controls-toolbar-bottom")){
+    #zen-media-controls-toolbar{
+      order:1 !important;
+    }
+    #zen-media-controls-toolbar:hover + #zen-sidebar-foot-buttons {
+      transform: translateY(-35px);
+      transition: transform 0.2s ease-in-out !important;
+    }
+  }
+
+
+  /* Media player expanded layout */
+  #zen-media-controls-toolbar {
+    & .show-on-hover {
+      max-height: unset !important;
+      opacity: 1 !important;
+      transform: translateY(0) !important;
+      padding-right: 6px;
+      pointer-events: none;
+      transition: max-height 0.2s ease, opacity 0.2s ease, transform 0.2s ease,
+        padding 0.2s ease;
+    }
+  }
+  
+  /* Media buttons hover effect */
+  #zen-media-buttons-hbox > toolbarbutton {
+    opacity: 0 !important;
+    transition: opacity 0.4s ease-in-out !important;
+    &:hover {
+      opacity: 1 !important;
+    }
+  }
+}
+  
+  /* Media controls hover expansion */
+  #zen-media-controls-toolbar {
+    #zen-media-controls-hbox {
+      order: 0 !important;
+      height: 0 !important;
+      overflow: hidden !important;
+    }
+  
+    &:hover {
+      #zen-media-controls-hbox {
+        height: fit-content !important;
+        opacity: 1 !important;
+      }
+    }
+  }
+  
+  #zen-media-main-vbox > vbox {
+    order: 1 !important;
+  }
+
+/* Media controls glow effect */
+#zen-media-controls-toolbar::after {
+  position: absolute;
+  content: "";
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  transform: scale(0.9) translateZ(0);
+  filter: blur(15px);
+  opacity: 0 !important;
+  transition: all 0.3s ease-in-out !important;
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--zen-primary-color) 10%, black),
+    var(--zen-primary-color),
+    color-mix(in srgb, var(--zen-primary-color) 25%, white),
+    var(--zen-primary-color),
+    light-dark(#fffd, #000d),
+    light-dark(#fffd, #000d),
+    var(--zen-primary-color),
+    color-mix(in srgb, var(--zen-primary-color) 50%, white),
+    color-mix(in srgb, var(--zen-primary-color) 25%, white),
+    var(--zen-primary-color),
+    color-mix(in srgb, var(--zen-primary-color) 25%, black),
+    light-dark(#fffd, #000d),
+    color-mix(in srgb, var(--zen-primary-color) 10%, black),
+    light-dark(#fffd, #000d),
+    color-mix(in srgb, var(--zen-primary-color) 75%, black),
+    color-mix(in srgb, var(--zen-primary-color) 50%, black),
+    color-mix(in srgb, var(--zen-primary-color) 25%, black),
+    color-mix(in srgb, var(--zen-primary-color) 10%, black),
+    light-dark(#fffd, #000d)
+  );
+
+  background-size: 200% 200%;
+}
+
+/* Playing media styling */
+#zen-media-controls-toolbar.playing {
+  toolbaritem {
+    background-color: light-dark(#fffd, #000d) !important;
+  }
+
+  padding: 16px 24px;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.01);
+
+  &::after {
+    opacity: 1 !important;
+    animation: animateGlow 5s cubic-bezier(0.1, 0.7, 0.5, 0.1) infinite;
+  }
+
+  &:hover::after {
+    height: 150%;
+  }
+}
+
+/* Glow animation keyframes */
+@keyframes animateGlow {
+  0% {
+    background-position: 0% 20%;
+  }
+  100% {
+    background-position: 200% 20%;
+  }
+}
+
+#zen-sidebar-foot-buttons{
+  margin-bottom: 5px !important; 
+}  
+  
 /*Window Control styling*/
 @media not (-moz-bool-pref: "arc-style-window-buttons-disabled") {
   .titlebar-button {
