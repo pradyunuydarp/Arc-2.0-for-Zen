@@ -32,6 +32,16 @@
     },
     {
         "type": "checkbox",
+        "label": "Enable Background for Folders"
+        "property": "arc-folder-border"
+    },
+    {
+        "type": "checkbox",
+        "label": "Enable Vertical Line for Tabs in Folders"
+        "property": "arc-folder-vertical-line"
+    },
+    {
+        "type": "checkbox",
         "label": "Enable Tab Groups",
         "property": "browser.tabs.groups.enabled"
 
@@ -313,6 +323,7 @@
         ]
     }
 ]
+
 
 
 
