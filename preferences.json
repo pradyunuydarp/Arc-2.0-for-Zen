@@ -32,12 +32,12 @@
     },
     {
         "type": "checkbox",
-        "label": "Enable Background for Folders"
+        "label": "Enable Background for Folders",
         "property": "arc-folder-border"
     },
     {
         "type": "checkbox",
-        "label": "Enable Vertical Line for Tabs in Folders"
+        "label": "Enable Vertical Line for Tabs in Folders",
         "property": "arc-folder-vertical-line"
     },
     {
@@ -323,6 +323,7 @@
         ]
     }
 ]
+
 
 
 
