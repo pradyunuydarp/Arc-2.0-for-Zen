@@ -113,7 +113,7 @@
     {
         "type": "checkbox",
         "property": "arc-nogaps-mod",
-        "label": "Marginless for all modes."
+        "label": "EXPERIMENTAL: Marginless for all modes; may break compact sidebar blur."
     },
     {
         "type": "checkbox",
@@ -176,7 +176,7 @@
         "type": "dropdown",
         "value": "number",
         "property": "arcline.url.bar",
-        "label": "[EXPERIMENTAL] Enables Arcline-like URL Bar.",
+        "label": "Enables Arcline-like URL Bar.",
         "default": 0,
         "options": [
             {
@@ -313,6 +313,7 @@
         ]
     }
 ]
+
 
 
 
