@@ -32,7 +32,7 @@
     },
     {
         "type": "checkbox",
-        "label": "Enable Background for Folders",
+        "label": "Enable Background for Folders (NOTE: Works only till three nested-folders)",
         "property": "arc-folder-border"
     },
     {
@@ -144,7 +144,7 @@
         "type": "dropdown",
         "value": "number",
         "property": "arc.tab-groups-disable",
-        "label": "Arc Tab Folders (Disable this for applying Advanced Tab Groups mod).",
+        "label": "Arc Tab Groups",
         "default": 0,
         "options": [
             {
@@ -162,13 +162,18 @@
     },
     {
         "type": "checkbox",
+        "property": "arc-menu-animations",
+        "label": "Disable Menu Animations (Do it for using Context Menu Icon Mod)."
+    },
+    {
+        "type": "checkbox",
         "property": "arc-remove-workspace-indicator",
         "label": "Remove the workspace indicator."
     },
     {
         "type": "checkbox",
         "property": "arc-urlbar-fade-in",
-        "label": "Remove fade-in which is below the urlbar",
+        "label": "Remove fade-in which is below the urlbar.",
         "default": false
     },
     {
@@ -323,6 +328,7 @@
         ]
     }
 ]
+
 
 
 
