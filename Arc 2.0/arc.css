@@ -1,7 +1,7 @@
 /* Arc 2.0 CSS Files */
 @import "Chrome CSS/animations.css";
 @import "Chrome CSS/icons.css";
-@import "Chrome CSS/miscellaneous.css";
+@import "Chrome CSS/general.css";
 @import "Chrome CSS/pinned-extensions.css";
 @import "Chrome CSS/pip.css";
 @import "Chrome CSS/sidebar.css";
@@ -9,3 +9,4 @@
 @import "Chrome CSS/tab-styles.css";
 @import "Chrome CSS/URLbar.css";
 @import "Chrome CSS/workspace-buttons.css";
+
