@@ -1,33 +1,3 @@
-/*Folder Styling*/
-/* ------------------- Vertical Bar for Folder ------------------- */
-@media (-moz-pref("arc-folder-vertical-line")) {
-.tab-group-container {
-  position: relative; /* required for pseudo-element */
-}
-.tab-group-container::after {
-  content: "";
-  position: absolute;
-  opacity: 0.5;
-  top: 2px;
-  left: 8px;
-  width: 4px;
-  bottom: 4px;
-  border-radius: 5px;
-  background: var(--zen-primary-color);
-  transition: background 0.3s ease, transform 0.2s ease;
-}
-}
-
-/* Full background for zen-folder elements */
-@media (-moz-pref("arc-folder-border")) {
-zen-folder {
-  background-color: light-dark(rgba(0,0,0,1), rgba(225,225,225,0.1));
-  border-radius: 16px;
-  padding: 2px 2px;
-  transition: background-color 0.3s ease;
-}
-}
-
 /*New Animations*/
 /* Hardware acceleration & will-change for best performance */
 #tabbrowser-tabs, .tabbrowser-tab, 
