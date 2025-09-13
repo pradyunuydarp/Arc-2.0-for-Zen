@@ -3,6 +3,6 @@
   "name": "Arc 2.0 (Forked)",
   "version": "1.0.0",
   "description": "A forked version of Arc 2.0 with a customized sidebar.",
-  "author": "Your Name",
+  "author": "pradyunuydarp",
   "preferences": "preferences.json"
 }
