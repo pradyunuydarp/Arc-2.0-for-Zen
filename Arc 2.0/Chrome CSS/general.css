@@ -69,7 +69,7 @@
   
   /* ----------------- NOGAPS COMPACT MOD ----------------- */
   
-  @media (-moz-bool-pref: "arc-nogaps-compact-mod") {
+  @media (-moz-pref: "arc-nogaps-compact-mod") {
     :root[zen-compact-mode="true"]:not([customizing]) {
         #zen-appcontent-wrapper:not(:has(#tabbrowser-tabpanels[zen-split-view]), :has(#zen-sidebar-web-panel:not([hidden]):not([pinned]))) {
             margin: 0 !important;
@@ -78,7 +78,7 @@
                 margin: 0 !important;
             }
   
-            @media (-moz-bool-pref: "zen.view.use-single-toolbar") {
+            @media (-moz-pref: "zen.view.use-single-toolbar") {
               #zen-appcontent-wrapper {
                   position: relative;
               }
@@ -167,7 +167,7 @@
   background: light-dark(rgba(255,255,255,0.32),rgba(0,0,0,0.3)) !important;
 }
 
-@media (-moz-bool-pref: "zen.tabs.vertical.right-side") {
+@media (-moz-pref: "zen.tabs.vertical.right-side") {
   #customization-container {
     left: 10px;
   }
