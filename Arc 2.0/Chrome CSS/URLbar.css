@@ -654,7 +654,7 @@ browser, .browserSidebarContainer.deck-selected {
   
 }
 
-@media (-moz-bool-pref: "zen.view.use-single-toolbar") {
+@media (-moz-pref: "zen.view.use-single-toolbar") {
   :root[zen-sidebar-expanded="true"] {
     .urlbar-page-action,
     #tracking-protection-icon-container {
