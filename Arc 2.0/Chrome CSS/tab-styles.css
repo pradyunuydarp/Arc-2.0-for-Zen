@@ -15,7 +15,7 @@
 #zen-essentials-container .tabbrowser-tab {
   
  
-  @media (-moz-bool-pref: "zen.theme.essentials-favicon-bg") {
+  @media (-moz-pref: "zen.theme.essentials-favicon-bg") {
     &[visuallyselected] .tab-background {
       &::after {
         left: -50% !important;
