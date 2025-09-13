@@ -1,6 +1,6 @@
 /*New Animations*/
 /* Hardware acceleration & will-change for best performance */
-#tabbrowser-tabs, .tabbrowser-tab, 
+#tabbrowser-tabs, .tabbrowser-tab,
 #nav-bar toolbarbutton, #PersonalToolbar toolbarbutton,
 #urlbar, #searchbar, menupopup, panel, tooltip {
   transform: translateZ(0);
@@ -10,7 +10,7 @@
 /* === TAB ANIMATIONS === */
 /* Tab hover and active animation with enhanced shadows */
 .tabbrowser-tab {
-  transition: box-shadow 0.2s cubic-bezier(0.4,0,0.2,1), 
+  transition: box-shadow 0.2s cubic-bezier(0.4,0,0.2,1),
               transform 0.24s cubic-bezier(0.22,1.5,0.36,1),
               opacity 0.15s cubic-bezier(0.4,0,0.2,1),
               filter 0.2s ease !important;
@@ -66,7 +66,7 @@
 
 /* Tab close button with ripple effect */
 .tab-close-button {
-  transition: transform 0.16s cubic-bezier(0.49,1.7,0.36,1), 
+  transition: transform 0.16s cubic-bezier(0.49,1.7,0.36,1),
               opacity 0.12s ease,
               box-shadow 0.2s ease !important;
   position: relative;
@@ -291,13 +291,13 @@ menuitem:nth-child(n+6) { animation-delay: 0.12s; }
 }
 
 /* Hardware acceleration for all animated elements */
-.tabbrowser-tab *, 
+.tabbrowser-tab *,
 #nav-bar toolbarbutton *,
 #PersonalToolbar toolbarbutton *,
 #urlbar *, #searchbar *,
 menupopup *, menuitem *,
-#sidebar-box *, #downloads-notification-anchor * { 
-  backface-visibility: hidden; 
+#sidebar-box *, #downloads-notification-anchor * {
+  backface-visibility: hidden;
 }
 
 /* ACCESSIBILITY & FUNCTIONALITY PRESERVATION */
@@ -327,12 +327,12 @@ menupopup *, menuitem *,
     will-change: transform, opacity;
     /* Smooth appearance */
     transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
-                opacity 0.2s ease-out; 
+                opacity 0.2s ease-out;
     /* Glass effect */
     backdrop-filter: blur(20px) saturate(180%);
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 12px; 
+    border-radius: 12px;
     /* Optimize rendering */
     contain: layout style paint;
 }
@@ -343,13 +343,13 @@ menupopup *, menuitem *,
     filter: blur(5px) brightness(50%);
     transition: filter 0.1s ease-in-out;
   }
-  
+
   /* ---------------------- Tab Loading Animation ---------------------- */
   .browserSidebarContainer:not([zen-split="true"]) {
     transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.35) !important,
                 filter 0.18s cubic-bezier(0.2, 0.8, 0.4, 1) !important;
   }
-  
+
   #main-window:has(.tabbrowser-tab[selected][busy]) .browserSidebarContainer:not([zen-split="true"]) {
     filter: blur(10px) brightness(60%) !important;
     transform: scale(0.975) !important;
@@ -357,7 +357,7 @@ menupopup *, menuitem *,
     border-radius: 8px !important;
 
   }
-  
+
   @media (-moz-pref("arc-tab-loading-animation", 2)) {
     .browserSidebarContainer:not([zen-split="true"]) {
       transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.35) !important,
@@ -369,7 +369,7 @@ menupopup *, menuitem *,
       transition-delay: 0.5s !important;
     }
   }
-  
+
   @media (-moz-pref("arc-tab-loading-animation", 3)) {
     .browserSidebarContainer:not([zen-split="true"]) {
       transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.935) !important,
@@ -381,7 +381,7 @@ menupopup *, menuitem *,
       transition-delay: 0.5s !important;
     }
   }
-  
+
   @media (-moz-pref("arc-tab-loading-animation", 4)) {
     .browserSidebarContainer:not([zen-split="true"]) {
       transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.35) !important,
@@ -393,7 +393,7 @@ menupopup *, menuitem *,
       transition-delay: 0.5s !important;
     }
   }
-  
+
   @media (-moz-pref("arc-tab-loading-animation", 5)) {
     .browserSidebarContainer:not([zen-split="true"]) {
       transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.35) !important,
@@ -405,13 +405,13 @@ menupopup *, menuitem *,
       transition-delay: 0.5s !important;
     }
   }
-  
+
   @media (-moz-pref("arc-tab-loading-animation", 0)) {
     .browserSidebarContainer:not([zen-split="true"]) {
       transition: none !important;
     }
     #main-window:has(.tabbrowser-tab[selected][busy]) .browserSidebarContainer:not([zen-split="true"]),
-    #main-window:has(.tabbrowser-tab[selected]:not([busy])) .browserSidebarContainer:not([zen-split="true"]) 
+    #main-window:has(.tabbrowser-tab[selected]:not([busy])) .browserSidebarContainer:not([zen-split="true"])
   {
     filter: none !important;
 
@@ -420,7 +420,7 @@ menupopup *, menuitem *,
     transition-delay: 0s !important;
     }
   }
-  
+
  /* --------------------- Tab Switch Animation --------------------- */
 
 #tabbrowser-tabpanels > hbox:not(:has(.zen-glance-background)):not([zen-split="true"]) {
@@ -434,7 +434,7 @@ menupopup *, menuitem *,
     scale: 1 !important;
     opacity: 1 !important;
     filter: none !important;
-  
+
 }
 
 @media (-moz-pref("arc-tab-switch-animation", 2)) {
@@ -517,12 +517,12 @@ menupopup *, menuitem *,
     filter: none !important;
   }
 }
-  
+
 /* ----------------- Other animations ------------------ */
 /* ------------------ Custom Split View Animation ------------------- */
 
 @keyframes scaleAndBrighten {
-  
+
   0% {
     transform: scale(0.95);
     opacity: 0;
@@ -548,21 +548,21 @@ menupopup *, menuitem *,
 
   animation: scaleAndBrighten 0.6s cubic-bezier(0.33, 1, 0.68, 1) forwards;
 }
-  
+
 
 
   /* website view animations [works for split tabs] */
   #browser:not(:has(.zen-glance-background)) #tabbrowser-tabpanels {
     transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.35) !important;
   }
-  
+
   /* trackpad gestures*/
   tabpanels .browserStack browser {
     transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.1) 0.1s !important;
-  
+
   }
-  
-  
+
+
   /* Previous animation*/
   .browserStack:has(
       #historySwipeAnimationPreviousArrow:not([style="translate: none;"])
@@ -571,7 +571,7 @@ menupopup *, menuitem *,
     scale: 0.95 !important;
     transform: translateX(3%) !important;
   }
-  
+
   /* Next animation*/
   .browserStack:has(
       #historySwipeAnimationNextArrow:not([style="translate: none;"])
@@ -579,75 +579,74 @@ menupopup *, menuitem *,
     browser {
     scale: 0.95 !important;
     transform: translateX(-3%) !important;
-  
+
   }
-  
+
   /* smoothen trackpad gestures */
   .browserStack browser[style*="transform: none"] {
-  
+
   }
-  
+
   /* ctrl tab visuals and animations */
-  #ctrlTab-panel {
-    --panel-background: rgba(0,0,0,0.9) !important;
-    transition: all 0.1s cubic-bezier(0.175, 0.885, 0.32, 1.1) 0.2s !important;
-    border-radius: 13px;
-    scale: 0.7;
-  }
-  
-  #ctrlTab-panel:has(.ctrlTab-preview:not([hidden="true"])) {
-    scale: 0.7 !important;
-    border-radius: 13px;
-  }
-  
-  slot:nth-child(1) {
-  
-    padding: 0 !important;
-  }
-  
-  .ctrlTab-preview-inner {
-    /* 	padding: 0 !important; */
-    margin: 0 !important;
-    transition: all 0.2s ease-in-out;
-  
-    .ctrlTab-canvas {
-      border-radius: 1em !important;
-      overflow: hidden;
-  
-      img {
-        background-color: #000000 !important;
-      }
-    }
-  
-    .ctrlTab-favicon-container {
-      justify-content: center !important;
-      transition: all 0.5s ease-in-out;
-  
-      image {
-        border-radius: 50% !important;
-        transition: all 0.5s ease-in-out !important;
-        /* 			scale: 1.25 !important; */
-      }
-    }
-  
-    .ctrlTab-label {
-      margin-top: 1.5em !important;
+/*
+#ctrlTab-panel {
+  --panel-background: rgba(0,0,0,0.9) !important;
+  transition: all 0.1s cubic-bezier(0.175, 0.885, 0.32, 1.1) 0.2s !important;
+  border-radius: 13px;
+  scale: 0.7;
+}
+
+#ctrlTab-panel:has(.ctrlTab-preview:not([hidden="true"])) {
+  scale: 0.7 !important;
+  border-radius: 13px;
+}
+
+slot:nth-child(1) {
+
+  padding: 0 !important;
+}
+
+.ctrlTab-preview-inner {
+  margin: 0 !important;
+  transition: all 0.2s ease-in-out;
+
+  .ctrlTab-canvas {
+    border-radius: 1em !important;
+    overflow: hidden;
+
+    img {
+      background-color: #000000 !important;
     }
   }
-  
-  .ctrlTab-preview:focus > .ctrlTab-preview-inner {
-    outline: none !important;
-    /* border: none !important;   */
-    background-color: var(--sidebar-background-color) !important;
-    border-radius: 1.5em !important;
-    scale: 1.03 !important;
-  
-    .ctrlTab-favicon-container {
-      image {
-        padding: 2px !important;
-      }
+
+  .ctrlTab-favicon-container {
+    justify-content: center !important;
+    transition: all 0.5s ease-in-out;
+
+    image {
+      border-radius: 50% !important;
+      transition: all 0.5s ease-in-out !important;
     }
   }
+
+  .ctrlTab-label {
+    margin-top: 1.5em !important;
+  }
+}
+
+.ctrlTab-preview:focus > .ctrlTab-preview-inner {
+  outline: none !important;
+  background-color: var(--sidebar-background-color) !important;
+  border-radius: 1.5em !important;
+  scale: 1.03 !important;
+
+  .ctrlTab-favicon-container {
+    image {
+      padding: 2px !important;
+    }
+  }
+}
+*/
 
 /*Menu Animations*/
 @media not (-moz-pref("arc-menu-animations")) {
@@ -680,10 +679,10 @@ menuitem {
   }
 }
 }
-  
+
 /*Transparent Glance*/
 @media (-moz-pref("arc-transparent-glance")) {
-  
+
   /* Transparent glance styling */
   .zen-glance-background > vbox {
     mask-image: linear-gradient(
@@ -698,7 +697,7 @@ menuitem {
     mask-repeat: no-repeat;
     mask-size: 100% 100%;
   }
-  
+
   .zen-glance-overlay > vbox {
     background-color: light-dark(#fff7, #0007) !important;
     margin-top: 0.5% !important;
@@ -707,10 +706,10 @@ menuitem {
     border-radius: 1.5em !important;
   }
 }
-  
+
  /*Media Player*/
 @-moz-document url-prefix("chrome:") {
- 
+
   @media (-moz-pref("arc.media-controls-toolbar-bottom")){
     #zen-media-controls-toolbar{
       order:1 !important;
@@ -734,7 +733,7 @@ menuitem {
         padding 0.2s ease;
     }
   }
-  
+
   /* Media buttons hover effect */
   #zen-media-buttons-hbox > toolbarbutton {
     opacity: 0 !important;
@@ -744,7 +743,7 @@ menuitem {
     }
   }
 }
-  
+
   /* Media controls hover expansion */
   #zen-media-controls-toolbar {
     #zen-media-controls-hbox {
@@ -752,7 +751,7 @@ menuitem {
       height: 0 !important;
       overflow: hidden !important;
     }
-  
+
     &:hover {
       #zen-media-controls-hbox {
         height: fit-content !important;
@@ -760,7 +759,7 @@ menuitem {
       }
     }
   }
-  
+
   #zen-media-main-vbox > vbox {
     order: 1 !important;
   }
@@ -837,9 +836,9 @@ menuitem {
 }
 
 #zen-sidebar-foot-buttons{
-  margin-bottom: 5px !important; 
-}  
-  
+  margin-bottom: 5px !important;
+}
+
 /*Window Control styling*/
 @media not (-moz-pref: "arc-style-window-buttons-disabled") {
   .titlebar-button {
